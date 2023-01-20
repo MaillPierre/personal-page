@@ -1,0 +1,6 @@
+.category-anchor {
+    display: block;
+    visibility: hidden;
+    content: "";
+    position: relative;
+  }
