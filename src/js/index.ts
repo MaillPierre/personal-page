@@ -4,13 +4,14 @@ import dayjs from 'dayjs';
 import { saveAs } from 'file-saver';
 import { v4 as uuidv4 } from 'uuid';
 
-import * as config from '../../config/default.json';
-
 import Autocomplete from "bootstrap5-autocomplete";
 Autocomplete.init();
 
 import * as $rdf from 'rdflib';
 import EventEmitter from 'events';
+
+import { ContentPerson, ContentSocial } from './Modules.ts';
+import * as config from '../../config/default.json';
 
 var RDF = $rdf.Namespace("http://www.w3.org/1999/02/22-rdf-syntax-ns#");
 var RDFS = $rdf.Namespace("http://www.w3.org/2000/01/rdf-schema#");
@@ -32,10 +33,17 @@ var DCMITYPE = $rdf.Namespace("http://purl.org/dc/dcmitype/");
 var EX = $rdf.Namespace("https://e.g/#");
 const exampleDataset = EX('dataset');
 
-var personConfig = config.Person;
-var personName = personConfig.name;
 $(() => {
-    console.log("TEST")
-    console.log(personName)
-    $("#titleHeader").html(personName);
+    
+
+    let modules = [
+        new ContentPerson(config),
+        new ContentSocial(config)
+    ];
+
+    modules.forEach(module => {
+        module.render();
+    })
 });
+
+

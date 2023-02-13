@@ -20,6 +20,11 @@
         "stream-http": "^3.2.0"
     },
     "dependencies": {
+        "@types/bootstrap": "^5.2.6",
+        "@types/jquery": "^3.5.16",
+        "@types/node": "^18.11.9",
+        "@types/uuid": "^9.0.0",
+        "@types/rdflib": "^1.2.0",
         "@popperjs/core": "^2.11.6",
         "bootstrap": "^5.2.0",
         "bootstrap-icons": "^1.9.1",
