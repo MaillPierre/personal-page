@@ -1,6 +1,4 @@
-.category-anchor {
-    display: block;
-    visibility: hidden;
-    content: "";
-    position: relative;
-  }
+.icon-image {
+  width: 16px;
+  height: 16px;
+}

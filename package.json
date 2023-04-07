@@ -8,7 +8,9 @@
         "dev": "npx parcel serve",
         "predev": "rm dist/* || true"
     },
+    "type": "module",
     "devDependencies": {
+        "crypto-browserify": "^3.12.0",
         "d3": "latest",
         "dayjs": "^1.11.5",
         "echarts": "latest",
@@ -19,6 +21,7 @@
         "path-browserify": "^1.0.1",
         "punycode": "^1.4.1",
         "querystring-es3": "^0.2.1",
+        "stream-browserify": "^3.0.0",
         "stream-http": "^3.2.0",
         "util": "^0.12.5"
     },
@@ -37,6 +40,7 @@
         "config": "^3.3.9",
         "fetch": "^1.1.0",
         "file-saver": "^2.0.5",
+        "graphy": "^4.3.6",
         "highlight.js": "^11.7.0",
         "markdown-it": "^13.0.1",
         "markdown-it-image-size": "^13.3.0",

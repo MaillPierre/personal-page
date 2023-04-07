@@ -1,5 +1,4 @@
 import $ from 'jquery';
-import { Statement } from 'rdflib';
 import dayjs from 'dayjs';
 import { saveAs } from 'file-saver';
 import { v4 as uuidv4 } from 'uuid';
