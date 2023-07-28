@@ -25,6 +25,6 @@ export function info(logObject: any, ...o: any[]) : void {
 
 function logging(level, logObject: any, ...o: any[]): void {
     const now = dayjs();
-    const message = util.format("[%s][%s]: %s", level, now.toISOString(), logObject, ...o);
-    console.error(message);
+    const message = util.format("[%s][%s]: ", level, now.toISOString());
+    console.error(message, logObject, ...o);
 }

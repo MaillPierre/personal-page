@@ -1,8 +1,8 @@
-import $ from 'jquery';
-import * as Logger from './LogUtils';
 import * as $rdf from 'rdflib';
-import * as RDFUtil from './Utils';
+import * as Logger from './LogUtils';
+import * as RDFUtil from './RDFUtils';
 import { ContentClass } from './Model';
+import * as Query from './QueryUtils';
 import MarkdownIt from 'markdown-it';
 let md = new MarkdownIt({
         html:         true,
@@ -11,7 +11,6 @@ let md = new MarkdownIt({
         langPrefix:   'language-',
         linkify:      true
     });
-import EventEmitter from 'events';
 // md.use(markdownItImageSize);
 
 export class ContentPerson extends ContentClass {
@@ -135,8 +134,8 @@ export class ContentPublications extends ContentClass {
 
     constructor(configObject: any) {
         super("Publications", "publication", configObject);
-        Logger.log(JSON.stringify(configObject))
-        this.dblpId = configObject.dblp;
+        Logger.log(configObject)
+        this.dblpId = configObject.publications.dblp;
         let dblpDataUrl = "https://dblp.org/pid/" + this.dblpId + ".ttl";
         this.dblpData = RDFUtil.createStore();
         this.dblpDataLoadingPromise = RDFUtil.loadRDFFile(dblpDataUrl, this.dblpData, dblpDataUrl);
@@ -157,5 +156,41 @@ export class ContentPublications extends ContentClass {
         }
 
         return md.render(content);
+    }
+}
+
+export class ContentHAL extends ContentClass {
+    idHAL: string;
+    halData: $rdf.Store;
+    halDataLoadingPromise: Promise<void>;
+    halAuthorAggregate: string;
+
+    private halEndpoint: string;
+    // private static readonly halAuthorAggregatePrefix: "https://data.archives-ouvertes.fr/author/";
+    private isAggregatedBy = $rdf.namedNode("http://www.openarchives.org/ore/terms/isAggregatedBy");
+    private halPersonProperty = RDFUtil.HAL("person");
+
+
+    constructor(configObject: any) {
+        super("HAL", "hal", configObject);
+        this.idHAL = configObject.publications.hal;
+        this.halData = RDFUtil.createStore();
+        this.halEndpoint = "http://data.archives-ouvertes.fr/sparql";
+        this.halAuthorAggregate = `<https://data.archives-ouvertes.fr/author/${this.idHAL}>`;
+        Logger.log("HAL author aggregate: " + this.halAuthorAggregate);
+        this.halDataLoadingPromise = Query.sparqlQueryPromise(this.halEndpoint, `DESCRIBE ${this.halAuthorAggregate}`, this.halData);
+    }
+
+    private generateData() {
+        return this.halDataLoadingPromise.then(() => {
+            Logger.log("HAL data loaded");
+            let authorNodes = this.halData.statementsMatching(undefined, this.isAggregatedBy, undefined).map(statement => statement.subject);
+
+
+        });
+    }
+
+    public content(): string {
+
     }
 }
