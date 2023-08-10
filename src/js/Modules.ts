@@ -4,13 +4,14 @@ import * as RDFUtil from './RDFUtils';
 import { ContentClass } from './Model';
 import * as Query from './QueryUtils';
 import MarkdownIt from 'markdown-it';
+import { SubjectType } from 'rdflib/lib/types';
 let md = new MarkdownIt({
-        html:         true,
-        xhtmlOut:     true,
-        breaks:       true,
-        langPrefix:   'language-',
-        linkify:      true
-    });
+    html: true,
+    xhtmlOut: true,
+    breaks: true,
+    langPrefix: 'language-',
+    linkify: true
+});
 // md.use(markdownItImageSize);
 
 export class ContentPerson extends ContentClass {
@@ -20,7 +21,7 @@ export class ContentPerson extends ContentClass {
 
     content() {
         let personName = this.config['name'];
-        return md.render(`# ${personName}`)
+        return Promise.resolve(md.render(`# ${personName}`));
     }
 }
 
@@ -29,12 +30,12 @@ export class ContentSocial extends ContentClass {
         super("", "social", configObject, "#socialInfo");
     }
     content() {
-        
+
         let content = "";
-        if(this.config.website !== undefined && this.config.website !== "") {
+        if (this.config.website !== undefined && this.config.website !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/globe.svg" alt="Website logo" class="icon-image"> Website](${this.config.website}) `);
         }
-        if(this.config.blog !== undefined && this.config.blog !== "") {
+        if (this.config.blog !== undefined && this.config.blog !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/journal-text.svg" alt="Blog logo" class="icon-image"> Blog](${this.config.blog}) `);
         }
         if (this.config.email !== undefined && this.config.email !== "") {
@@ -60,70 +61,73 @@ export class ContentSocial extends ContentClass {
         }
         if (this.config.hal !== undefined && this.config.hal !== "") {
             content = content.concat(`[<img src="https://cv.hal.science/assets/img/idhal.svg" alt="HAL Id logo" class="icon-image"> HAL](https://cv.hal.science/${this.config.hal}) `);
-        }        
-        if(this.config.instagram !== undefined && this.config.instagram !== "") {
+        }
+        if (this.config.gscholar !== undefined && this.config.gscholar !== "") {
+            content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/google.svg" alt="Google Scholar logo" class="icon-image"> Google Scholar](https://scholar.google.com/citations?user=${this.config.gscholar}) `);
+        }
+        if (this.config.instagram !== undefined && this.config.instagram !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/instagram.svg" alt="Instagram logo" class="icon-image"> Instagram](https://www.instagram.com/${this.config.instagram}) `);
         }
-        if(this.config.facebook !== undefined && this.config.facebook !== "") {
+        if (this.config.facebook !== undefined && this.config.facebook !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/facebook.svg" alt="Facebook logo" class="icon-image"> Facebook](${this.config.facebook}) `);
         }
-        if(this.config.youtube !== undefined && this.config.youtube !== "") {
+        if (this.config.youtube !== undefined && this.config.youtube !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/youtube.svg" alt="YouTube logo" class="icon-image"> YouTube](${this.config.youtube}) `);
         }
-        if(this.config.twitch !== undefined && this.config.twitch !== "") {
+        if (this.config.twitch !== undefined && this.config.twitch !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/twitch.svg" alt="Twitch logo" class="icon-image"> Twitch](${this.config.twitch}) `);
         }
-        if(this.config.patreon !== undefined && this.config.patreon !== "") {
+        if (this.config.patreon !== undefined && this.config.patreon !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/patreon.svg" alt="Patreon logo" class="icon-image"> Patreon](https://patreon.com/${this.config.patreon}) `);
         }
-        if(this.config.paypal !== undefined && this.config.paypal !== "") {
+        if (this.config.paypal !== undefined && this.config.paypal !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/paypal.svg" alt="PayPal logo" class="icon-image"> PayPal](${this.config.paypal}) `);
         }
-        if(this.config.bitcoin !== undefined && this.config.bitcoin !== "") {
+        if (this.config.bitcoin !== undefined && this.config.bitcoin !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/bitcoin.svg" alt="Bitcoin logo" class="icon-image"> Bitcoin](${this.config.bitcoin}) `);
         }
-        if(this.config.ethereum !== undefined && this.config.ethereum !== "") {
+        if (this.config.ethereum !== undefined && this.config.ethereum !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/ethereum.svg" alt="Ethereum logo" class="icon-image"> Ethereum](${this.config.ethereum}) `);
         }
-        if(this.config.monero !== undefined && this.config.monero !== "") {
+        if (this.config.monero !== undefined && this.config.monero !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/monero.svg" alt="Monero logo" class="icon-image"> Monero](${this.config.monero}) `);
         }
-        if(this.config.flattr !== undefined && this.config.flattr !== "") {
+        if (this.config.flattr !== undefined && this.config.flattr !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/flattr.svg" alt="Flattr logo" class="icon-image"> Flattr](${this.config.flattr}) `);
         }
-        if(this.config.liberapay !== undefined && this.config.liberapay !== "") {
+        if (this.config.liberapay !== undefined && this.config.liberapay !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/liberapay.svg" alt="Liberapay logo" class="icon-image"> Liberapay](${this.config.liberapay}) `);
         }
-        if(this.config.buymeacoffee !== undefined && this.config.buymeacoffee !== "") {
+        if (this.config.buymeacoffee !== undefined && this.config.buymeacoffee !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/buymeacoffee.svg" alt="Buy me a coffee logo" class="icon-image"> Buy me a coffee](${this.config.buymeacoffee}) `);
         }
-        if(this.config.open_collective !== undefined && this.config.open_collective !== "") {
+        if (this.config.open_collective !== undefined && this.config.open_collective !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/open-collective.svg" alt="Open Collective logo" class="icon-image"> Open Collective](${this.config.open_collective}) `);
         }
-        if(this.config.ko_fi !== undefined && this.config.ko_fi !== "") {
+        if (this.config.ko_fi !== undefined && this.config.ko_fi !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/ko-fi.svg" alt="Ko-fi logo" class="icon-image"> Ko-fi](${this.config.ko_fi}) `);
         }
-        if(this.config.reddit !== undefined && this.config.reddit !== "") {
+        if (this.config.reddit !== undefined && this.config.reddit !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/reddit.svg" alt="Reddit logo" class="icon-image"> Reddit](https://www.reddit.com/${this.config.reddit}) `);
         }
-        if(this.config.whatsapp !== undefined && this.config.whatsapp !== "") {
+        if (this.config.whatsapp !== undefined && this.config.whatsapp !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/whatsapp.svg" alt="WhatsApp logo" class="icon-image"> WhatsApp](${this.config.whatsapp}) `);
         }
-        if(this.config.telegram !== undefined && this.config.telegram !== "") {
+        if (this.config.telegram !== undefined && this.config.telegram !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/telegram.svg" alt="Telegram logo" class="icon-image"> Telegram](${this.config.telegram}) `);
         }
-        if(this.config.discord !== undefined && this.config.discord !== "") {
+        if (this.config.discord !== undefined && this.config.discord !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/discord.svg" alt="Discord logo" class="icon-image"> Discord](${this.config.discord}) `);
         }
-        if(this.config.slack !== undefined && this.config.slack !== "") {
+        if (this.config.slack !== undefined && this.config.slack !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/slack.svg" alt="Slack logo" class="icon-image"> Slack](${this.config.slack}) `);
         }
-        if(this.config.affiliation !== undefined && this.config.affiliation !== "") {
+        if (this.config.affiliation !== undefined && this.config.affiliation !== "") {
             content = content.concat(`
 Affiliation: ${this.config.affiliation} `);
         }
 
-        return md.render(content);
+        return Promise.resolve(md.render(content));
     }
 }
 
@@ -141,12 +145,12 @@ export class ContentPublications extends ContentClass {
         this.dblpDataLoadingPromise = RDFUtil.loadRDFFile(dblpDataUrl, this.dblpData, dblpDataUrl);
     }
 
-    content(): string {
+    content(): Promise<string> {
         let content = "";
 
         const dblpAuthorOf = RDFUtil.DBLP("authorOf");
 
-        if(this.dblpId !== undefined && this.dblpId !== "") {
+        if (this.dblpId !== undefined && this.dblpId !== "") {
             this.dblpDataLoadingPromise.then(() => {
                 Logger.log("debug", "DBLP data loaded");
                 let publications = this.dblpData.statementsMatching(undefined, dblpAuthorOf, undefined);
@@ -155,42 +159,128 @@ export class ContentPublications extends ContentClass {
             });
         }
 
-        return md.render(content);
+        return Promise.resolve(md.render(content));
     }
 }
 
-export class ContentHAL extends ContentClass {
-    idHAL: string;
-    halData: $rdf.Store;
-    halDataLoadingPromise: Promise<void>;
-    halAuthorAggregate: string;
-
-    private halEndpoint: string;
-    // private static readonly halAuthorAggregatePrefix: "https://data.archives-ouvertes.fr/author/";
-    private isAggregatedBy = $rdf.namedNode("http://www.openarchives.org/ore/terms/isAggregatedBy");
-    private halPersonProperty = RDFUtil.HAL("person");
-
+export class ContentDBLP extends ContentClass {
+    idDBLP: string;
+    dblpData: $rdf.Store;
+    dblpDataLoadingPromise: Promise<void>;
+    dblpAuthorURI: string;
 
     constructor(configObject: any) {
-        super("HAL", "hal", configObject);
-        this.idHAL = configObject.publications.hal;
-        this.halData = RDFUtil.createStore();
-        this.halEndpoint = "http://data.archives-ouvertes.fr/sparql";
-        this.halAuthorAggregate = `<https://data.archives-ouvertes.fr/author/${this.idHAL}>`;
-        Logger.log("HAL author aggregate: " + this.halAuthorAggregate);
-        this.halDataLoadingPromise = Query.sparqlQueryPromise(this.halEndpoint, `DESCRIBE ${this.halAuthorAggregate}`, this.halData);
-    }
-
-    private generateData() {
-        return this.halDataLoadingPromise.then(() => {
-            Logger.log("HAL data loaded");
-            let authorNodes = this.halData.statementsMatching(undefined, this.isAggregatedBy, undefined).map(statement => statement.subject);
-
-
+        super("Publications", "dblp", configObject);
+        this.idDBLP = configObject.publications.dblp;
+        this.dblpData = RDFUtil.createStore();
+        this.dblpDataLoadingPromise = Query.fetchGETPromise(`https://dblp.org/pid/${this.idDBLP}.ttl`).then((dataString) => {
+            RDFUtil.parseTurtleToStore(dataString, this.dblpData, `https://dblp.org/pid/${this.idDBLP}.ttl`);
+        }).catch((error) => {
+            Logger.log("error", "Error loading HAL data: " + error);
         });
     }
 
-    public content(): string {
+    private generateData() {
+        let authorOrcidMap = new Map<string, string>();
+        return this.dblpDataLoadingPromise.then(() => {
+            
+            let articlesNodes = this.dblpData.statementsMatching(undefined, RDFUtil.DBLP("authorOf"), undefined).map(statement => statement.object);
+            return Promise.allSettled(articlesNodes.filter(articleNode => $rdf.isNamedNode(articleNode)).map((articleNode) => {
+                return Query.fetchGETPromise(`${articleNode.value}.ttl`).then(articleDataString => {
+                    return RDFUtil.parseTurtleToStore(articleDataString, this.dblpData, `${articleNode.value}.ttl`)
+                })
+            })).then(() => {
+                let articleObjects = articlesNodes.map((articleNode) => {
+                    let articleObject = {
+                        types: [],
+                        title: "",
+                        authors: [],
+                        year: "",
+                        month: "",
+                        venue: "",
+                        doi: ""
 
+                    };
+                    
+                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.RDF("type"), undefined).forEach((statement) => {
+                        articleObject.types.push(statement.object);
+                    })
+                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("title"), undefined).forEach((statement) => {
+                        articleObject.title = decodeURIComponent(statement.object.value);
+                    })
+                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("doi"), undefined).forEach((statement) => {
+                        articleObject.doi = statement.object.value;
+                    })
+                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("publishedIn"), undefined).forEach((statement) => {
+                        articleObject.venue = decodeURIComponent(statement.object.value);
+                    })
+                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("yearOfPublication"), undefined).forEach((statement) => {
+                        articleObject.year = statement.object.value;
+                    })
+                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("monthOfPublication"), undefined).forEach((statement) => {
+                        articleObject.month = statement.object.value;
+                    })
+
+                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("hasSignature"), undefined).forEach((statement) => {
+                        let signatureNode = statement.object as $rdf.BlankNode;
+                        let authorObject = {
+                            name: "",
+                            orcid: "",
+                            order: 0
+                        }
+
+                        this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureDblpName"), undefined).forEach((statement) => {
+                            authorObject.name = decodeURIComponent(statement.object.value);
+                        })
+                        this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureOrcid"), undefined).forEach((statement) => {
+                            authorOrcidMap.set(authorObject.name, statement.object.value);
+                        })
+                        this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureOrdinal"), undefined).forEach((statement) => {
+                            authorObject.order = parseInt(statement.object.value);
+                        })
+
+                        articleObject.authors.push(authorObject);
+
+                    })
+
+                    articleObject.authors.sort((a, b) => {
+                        return a.order - b.order;
+                    })
+
+                    return articleObject;
+                })
+
+                return articleObjects;
+            })
+
+        }).then(articleObjects => {
+
+            let articleObjectsSorted = articleObjects.sort((a, b) => {
+                return parseInt(b.year) - parseInt(a.year);
+            })
+            // let proceedingArticles = articleObjectsSorted.filter(articleObject => articleObject.types.some(typeUri => typeUri.value.localeCompare(RDFUtil.DBLP("Inproceedings").value) == 0))
+            // let articlesArticles = articleObjectsSorted.filter(articleObject => articleObject.types.some(typeUri => typeUri.value.localeCompare(RDFUtil.DBLP("Article").value) == 0))
+            // let informalArticles = articleObjectsSorted.filter(articleObject => articleObject.types.some(typeUri => typeUri.value.localeCompare(RDFUtil.DBLP("Informal").value) == 0))
+
+            function articleListToString(articleList): string {
+                return articleList.map((articleObject) => {
+                    let authors = articleObject.authors.map((author) => {
+                        if (authorOrcidMap.get(author.name) !== "" && authorOrcidMap.get(author.name) !== undefined) {
+                            return `[${author.name}](${authorOrcidMap.get(author.name)})`;
+                        } else {
+                            return author.name;
+                        }
+                    }).join(", ");
+                    return `* [**${articleObject.title}**](${articleObject.doi}), ${authors}. ${articleObject.venue}, ${articleObject.month} ${articleObject.year}`;
+                }).join("\n")
+            }
+            return `${articleListToString(articleObjectsSorted)}`;
+        });;
+    }
+
+    public content(): Promise<string> {
+        return this.generateData().then((content) => {
+            return md.render(content);
+        })
     }
 }

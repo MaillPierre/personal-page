@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-import { ContentPerson, ContentSocial, ContentPublications, ContentHAL } from './Modules';
+import { ContentPerson, ContentSocial, ContentPublications, ContentDBLP } from './Modules';
 import * as config from '../../config/default.json';
 
 $(() => {
@@ -10,7 +10,7 @@ $(() => {
         new ContentPerson(config),
         new ContentSocial(config),
         // new ContentPublications(config),
-        new ContentHAL(config)
+        new ContentDBLP(config)
     ];
 
     modules.forEach(module => {

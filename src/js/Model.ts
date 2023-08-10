@@ -9,7 +9,7 @@ let md = new MarkdownIt({
     });
 
 export interface ContentInterface {
-    content(): string ;
+    content(): Promise<string> ;
 }
 
 export class ContentClass implements ContentInterface {
@@ -23,14 +23,17 @@ export class ContentClass implements ContentInterface {
         this.config = configObject[configKey];
         this.appendTargetId = appendTargetId;
     }
+
     render(): void {
         let title = `## ${this.name}
 
 `;
-        $(this.appendTargetId).append(md.render(title).concat(this.content())) ;
+        this.content().then((content) => {
+            $(this.appendTargetId).append(md.render(title).concat(content)) 
+        }) ;
     }
 
-    content(): string {
+    content(): Promise<string> {
         throw new Error('Method not implemented.');
     }
 }
