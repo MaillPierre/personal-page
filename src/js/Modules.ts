@@ -292,7 +292,7 @@ export class ContentPublications extends ContentClass {
                         if(data["concepts"] != undefined) {
                             let concepts = [];
                             data["concepts"].forEach((concept) => {
-                                if(concept["score"] > 0.5) {
+                                if(concept["score"] > 0) {
                                     concepts.push(concept["display_name"]);
                                 }
                             })
@@ -316,9 +316,7 @@ export class ContentPublications extends ContentClass {
                     let keywordArray = Array.from(keywordSet).sort((a, b) => {
                         return keywordCountMap.get(b) - keywordCountMap.get(a);
                     })
-                    let keywordString = keywordArray.map((keyword) => {
-                        return `* ${keyword} (${keywordCountMap.get(keyword)})`;
-                    }).join("\n");
+                    let keywordString = keywordArray.filter(keyword => keywordCountMap.get(keyword) > 1).join("; ");
                     result = result.concat(`\n\n### Keywords\n\n${keywordString}`);
 
                     return result;
