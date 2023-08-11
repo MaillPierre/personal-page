@@ -1,4 +1,6 @@
+- Co-author graph
+- publication/keywords graph
 - Co-authors extraction
-- Keyword extraction
+- [x] Keyword extraction
 - github project description
 - direct integration of MD file
