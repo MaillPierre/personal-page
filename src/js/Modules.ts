@@ -131,39 +131,29 @@ Affiliation: ${this.config.affiliation} `);
     }
 }
 
-export class ContentPublications extends ContentClass {
-    dblpId: string;
-    dblpData: $rdf.Store;
-    dblpDataLoadingPromise: Promise<void>;
-
-    constructor(configObject: any) {
-        super("Publications", "publication", configObject);
-        Logger.log(configObject)
-        this.dblpId = configObject.publications.dblp;
-        let dblpDataUrl = "https://dblp.org/pid/" + this.dblpId + ".ttl";
-        this.dblpData = RDFUtil.createStore();
-        this.dblpDataLoadingPromise = RDFUtil.loadRDFFile(dblpDataUrl, this.dblpData, dblpDataUrl);
-    }
-
-    content(): Promise<string> {
-        let content = "";
-
-        const dblpAuthorOf = RDFUtil.DBLP("authorOf");
-
-        if (this.dblpId !== undefined && this.dblpId !== "") {
-            this.dblpDataLoadingPromise.then(() => {
-                Logger.log("debug", "DBLP data loaded");
-                let publications = this.dblpData.statementsMatching(undefined, dblpAuthorOf, undefined);
-                Logger.log("debug", "DBLP publications: " + publications.map((s) => s.object.value).join(", "));
-                return;
-            });
-        }
-
-        return Promise.resolve(md.render(content));
-    }
+type authorObject = {
+    name: string,
+    orcid: string,
+    order: number
 }
 
-export class ContentDBLP extends ContentClass {
+type articleObject = {
+    types: $rdf.NamedNode[],
+    title: string,
+    authors: authorObject[],
+    year: string,
+    month: string,
+    venue: string,
+    doi: string
+};
+
+type biblioObject = {
+    journalArticle: articleObject[],
+    conferenceArticle: articleObject[],
+    informalArticle: articleObject[]
+}
+
+export class ContentPublications extends ContentClass {
     idDBLP: string;
     dblpData: $rdf.Store;
     dblpDataLoadingPromise: Promise<void>;
@@ -183,6 +173,11 @@ export class ContentDBLP extends ContentClass {
     private generateData() {
         let authorOrcidMap = new Map<string, string>();
         return this.dblpDataLoadingPromise.then(() => {
+            let biblioObject: biblioObject = {
+                journalArticle: [],
+                conferenceArticle: [],
+                informalArticle: []
+            }
             
             let articlesNodes = this.dblpData.statementsMatching(undefined, RDFUtil.DBLP("authorOf"), undefined).map(statement => statement.object);
             return Promise.allSettled(articlesNodes.filter(articleNode => $rdf.isNamedNode(articleNode)).map((articleNode) => {
@@ -190,77 +185,84 @@ export class ContentDBLP extends ContentClass {
                     return RDFUtil.parseTurtleToStore(articleDataString, this.dblpData, `${articleNode.value}.ttl`)
                 })
             })).then(() => {
-                let articleObjects = articlesNodes.map((articleNode) => {
-                    let articleObject = {
-                        types: [],
-                        title: "",
-                        authors: [],
-                        year: "",
-                        month: "",
-                        venue: "",
-                        doi: ""
 
-                    };
-                    
-                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.RDF("type"), undefined).forEach((statement) => {
-                        articleObject.types.push(statement.object);
-                    })
-                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("title"), undefined).forEach((statement) => {
-                        articleObject.title = decodeURIComponent(statement.object.value);
-                    })
-                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("doi"), undefined).forEach((statement) => {
-                        articleObject.doi = statement.object.value;
-                    })
-                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("publishedIn"), undefined).forEach((statement) => {
-                        articleObject.venue = decodeURIComponent(statement.object.value);
-                    })
-                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("yearOfPublication"), undefined).forEach((statement) => {
-                        articleObject.year = statement.object.value;
-                    })
-                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("monthOfPublication"), undefined).forEach((statement) => {
-                        articleObject.month = statement.object.value;
-                    })
+                function extractArticleArray(articleType: $rdf.NamedNode): articleObject[] {
+                    let typedArticlesNodes = this.dblpData.statementsMatching(undefined, RDFUtil.RDF("type"), articleType).map((statement) => { return statement.subject });
 
-                    this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("hasSignature"), undefined).forEach((statement) => {
-                        let signatureNode = statement.object as $rdf.BlankNode;
-                        let authorObject = {
-                            name: "",
-                            orcid: "",
-                            order: 0
-                        }
-
-                        this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureDblpName"), undefined).forEach((statement) => {
-                            authorObject.name = decodeURIComponent(statement.object.value);
+                    return typedArticlesNodes.map((articleNode) => {
+                        let articleObject: articleObject = {
+                            types: [],
+                            title: "",
+                            authors: [],
+                            year: "",
+                            month: "",
+                            venue: "",
+                            doi: ""
+                        };
+                        
+                        this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.RDF("type"), undefined).forEach((statement) => {
+                            articleObject.types.push(statement.object as $rdf.NamedNode);
                         })
-                        this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureOrcid"), undefined).forEach((statement) => {
-                            authorOrcidMap.set(authorObject.name, statement.object.value);
+                        this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("title"), undefined).forEach((statement) => {
+                            articleObject.title = decodeURIComponent(statement.object.value);
                         })
-                        this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureOrdinal"), undefined).forEach((statement) => {
-                            authorObject.order = parseInt(statement.object.value);
+                        this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("doi"), undefined).forEach((statement) => {
+                            articleObject.doi = statement.object.value;
                         })
-
-                        articleObject.authors.push(authorObject);
-
+                        this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("publishedIn"), undefined).forEach((statement) => {
+                            articleObject.venue = decodeURIComponent(statement.object.value);
+                        })
+                        this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("yearOfPublication"), undefined).forEach((statement) => {
+                            articleObject.year = statement.object.value;
+                        })
+                        this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("monthOfPublication"), undefined).forEach((statement) => {
+                            articleObject.month = statement.object.value;
+                        })
+    
+                        this.dblpData.statementsMatching(articleNode as SubjectType, RDFUtil.DBLP("hasSignature"), undefined).forEach((statement) => {
+                            let signatureNode = statement.object as $rdf.BlankNode;
+                            let authorObject: authorObject = {
+                                name: "",
+                                orcid: "",
+                                order: 0
+                            }
+    
+                            this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureDblpName"), undefined).forEach((statement) => {
+                                authorObject.name = decodeURIComponent(statement.object.value);
+                            })
+                            this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureOrcid"), undefined).forEach((statement) => {
+                                authorOrcidMap.set(authorObject.name, statement.object.value);
+                            })
+                            this.dblpData.statementsMatching(signatureNode, RDFUtil.DBLP("signatureOrdinal"), undefined).forEach((statement) => {
+                                authorObject.order = parseInt(statement.object.value);
+                            })
+    
+                            articleObject.authors.push(authorObject);
+    
+                        })
+    
+                        articleObject.authors.sort((a, b) => {
+                            return a.order - b.order;
+                        })
+    
+                        return articleObject;
                     })
+                }
 
-                    articleObject.authors.sort((a, b) => {
-                        return a.order - b.order;
-                    })
+                biblioObject.journalArticle = extractArticleArray.call(this, RDFUtil.DBLP("Article")).sort((a, b) => {
+                    return parseInt(b.year) - parseInt(a.year);
+                });
+                biblioObject.conferenceArticle = extractArticleArray.call(this, RDFUtil.DBLP("Inproceedings")).sort((a, b) => {
+                    return parseInt(b.year) - parseInt(a.year);
+                });
+                biblioObject.informalArticle = extractArticleArray.call(this, RDFUtil.DBLP("Informal")).sort((a, b) => {
+                    return parseInt(b.year) - parseInt(a.year);
+                });
 
-                    return articleObject;
-                })
-
-                return articleObjects;
+                return biblioObject;
             })
 
-        }).then(articleObjects => {
-
-            let articleObjectsSorted = articleObjects.sort((a, b) => {
-                return parseInt(b.year) - parseInt(a.year);
-            })
-            // let proceedingArticles = articleObjectsSorted.filter(articleObject => articleObject.types.some(typeUri => typeUri.value.localeCompare(RDFUtil.DBLP("Inproceedings").value) == 0))
-            // let articlesArticles = articleObjectsSorted.filter(articleObject => articleObject.types.some(typeUri => typeUri.value.localeCompare(RDFUtil.DBLP("Article").value) == 0))
-            // let informalArticles = articleObjectsSorted.filter(articleObject => articleObject.types.some(typeUri => typeUri.value.localeCompare(RDFUtil.DBLP("Informal").value) == 0))
+        }).then(biblioObject => {
 
             function articleListToString(articleList): string {
                 return articleList.map((articleObject) => {
@@ -274,7 +276,7 @@ export class ContentDBLP extends ContentClass {
                     return `* [**${articleObject.title}**](${articleObject.doi}), ${authors}. ${articleObject.venue}, ${articleObject.month} ${articleObject.year}`;
                 }).join("\n")
             }
-            return `${articleListToString(articleObjectsSorted)}`;
+            return `### Conference articles\n\n ${articleListToString(biblioObject.conferenceArticle)}\n\n### Journal articles\n\n${articleListToString(biblioObject.journalArticle)}\n\n### Informal articles\n\n${articleListToString(biblioObject.informalArticle)}`;
         });;
     }
 
