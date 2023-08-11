@@ -276,7 +276,7 @@ export class ContentPublications extends ContentClass {
                     return `* [**${articleObject.title}**](${articleObject.doi}), ${authors}. ${articleObject.venue}, ${articleObject.month} ${articleObject.year}`;
                 }).join("\n")
             }
-            return `### Conference articles\n\n ${articleListToString(biblioObject.conferenceArticle)}\n\n### Journal articles\n\n${articleListToString(biblioObject.journalArticle)}\n\n### Informal articles\n\n${articleListToString(biblioObject.informalArticle)}`;
+            return `### Journal articles\n\n${articleListToString(biblioObject.journalArticle)}\n\n### Conference articles\n\n ${articleListToString(biblioObject.conferenceArticle)}\n\n### Informal articles\n\n${articleListToString(biblioObject.informalArticle)}`;
         });;
     }
 
