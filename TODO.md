@@ -4,3 +4,4 @@
 - [x] Keyword extraction
 - github project description
 - direct integration of MD file
+  - "Previous positions" section
