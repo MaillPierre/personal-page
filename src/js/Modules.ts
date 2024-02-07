@@ -120,6 +120,9 @@ export class ContentSocial extends ContentClass {
         if (this.config.discord !== undefined && this.config.discord !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/discord.svg" alt="Discord logo" class="icon-image"> Discord](${this.config.discord}) `);
         }
+        if(this.config.bluesky !== undefined && this.config.bluesky !== "") {
+            content = content.concat(`[<img src="img/butterfly.svg" alt="BlueSky logo" class="icon-image"> BlueSky](${this.config.bluesky}) `);
+        }
         if (this.config.slack !== undefined && this.config.slack !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/slack.svg" alt="Slack logo" class="icon-image"> Slack](${this.config.slack}) `);
         }
