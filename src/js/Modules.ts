@@ -49,7 +49,7 @@ export class ContentSocial extends ContentClass {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/github.svg" alt="Github logo" class="icon-image"> GitHub](https://github.com/${this.config.github}) `);
         }
         if (this.config.mastodon !== undefined && this.config.mastodon !== "") {
-            content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/mastodon.svg" alt="Mastodon logo" class="icon-image"> Mastodon](https://social.linux.pizza/${this.config.mastodon}) `);
+            content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/mastodon.svg" alt="Mastodon logo" class="icon-image"> Mastodon](${this.config.mastodon}) `);
         }
         if (this.config.linkedin !== undefined && this.config.linkedin !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/linkedin.svg" alt="LinkedIn logo" class="icon-image"> LinkedIn](https://www.linkedin.com/in/${this.config.linkedin}) `);
@@ -119,6 +119,9 @@ export class ContentSocial extends ContentClass {
         }
         if (this.config.discord !== undefined && this.config.discord !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/discord.svg" alt="Discord logo" class="icon-image"> Discord](${this.config.discord}) `);
+        }
+        if(this.config.bluesky !== undefined && this.config.bluesky !== "") {
+            content = content.concat(`[<img src="img/butterfly.svg" alt="BlueSky logo" class="icon-image"> BlueSky](${this.config.bluesky}) `);
         }
         if (this.config.slack !== undefined && this.config.slack !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/slack.svg" alt="Slack logo" class="icon-image"> Slack](${this.config.slack}) `);

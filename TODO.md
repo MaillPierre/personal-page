@@ -1,0 +1,12 @@
+- Github action to retrieve DBLP data asynchronously
+- Use Semantic scholar
+- Co-author graph
+- publication/keywords graph
+- Co-authors extraction
+- [x] Keyword extraction
+- github project description
+- direct integration of MD file
+  - "Previous positions" section
+- Skills section
+- Technologies
+- Mastodon profile
