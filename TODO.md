@@ -1,6 +1,5 @@
 - Github action to retrieve DBLP data asynchronously
-- Use Semantic scholar
-- Co-author graph
+- Use Semantic scholar to retrieve publication data
 - publication/keywords graph
 - Co-authors extraction
 - [x] Keyword extraction

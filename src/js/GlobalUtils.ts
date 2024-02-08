@@ -89,8 +89,8 @@ export function iterativePromises(args: Array<Array<any>>, promiseCreationFuncti
 
 export function fetchPromise(url: string, header: Record<string, string> = {}, method = "GET", query = "", numTry = 0): Promise<any> {
     let myHeaders = {};
-    myHeaders["pragma"] = "no-cache";
-    myHeaders["cache-control"] = "no-cache";
+    // myHeaders["pragma"] = "no-cache";
+    // myHeaders["cache-control"] = "no-cache";
     Object.keys(header).forEach(key => {
         myHeaders[key] = header[key];
     });

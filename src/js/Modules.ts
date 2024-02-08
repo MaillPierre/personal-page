@@ -120,7 +120,7 @@ export class ContentSocial extends ContentClass {
         if (this.config.discord !== undefined && this.config.discord !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/discord.svg" alt="Discord logo" class="icon-image"> Discord](${this.config.discord}) `);
         }
-        if(this.config.bluesky !== undefined && this.config.bluesky !== "") {
+        if (this.config.bluesky !== undefined && this.config.bluesky !== "") {
             content = content.concat(`[<img src="img/butterfly.svg" alt="BlueSky logo" class="icon-image"> BlueSky](${this.config.bluesky}) `);
         }
         if (this.config.slack !== undefined && this.config.slack !== "") {
@@ -292,10 +292,10 @@ export class ContentPublications extends ContentClass {
 
                 return Promise.allSettled(doiList.map((doi) => {
                     return Query.fetchJSONPromise(`https://api.openalex.org/works/${doi}`).then((data: Global.JSONValue) => {
-                        if(data["concepts"] != undefined) {
+                        if (data["concepts"] != undefined) {
                             let concepts = [];
                             data["concepts"].forEach((concept) => {
-                                if(concept["score"] > 0) {
+                                if (concept["score"] > 0) {
                                     concepts.push(concept["display_name"]);
                                 }
                             })
@@ -307,7 +307,7 @@ export class ContentPublications extends ContentClass {
                     let keywordCountMap = new Map<string, number>();
                     keywordMap.forEach((keywords, doi) => {
                         keywords.forEach((keyword) => {
-                            if(keywordCountMap.has(keyword)) {
+                            if (keywordCountMap.has(keyword)) {
                                 keywordCountMap.set(keyword, keywordCountMap.get(keyword) + 1);
                             } else {
                                 keywordCountMap.set(keyword, 1);
@@ -335,3 +335,33 @@ export class ContentPublications extends ContentClass {
         })
     }
 }
+
+export class ContentProjects extends ContentClass {
+    contentPromise: Promise<string>;
+
+    constructor(configObject: any) {
+        super("Projects", "projects", configObject);
+        // https://api.github.com/users/MaillPierre/repos
+        this.contentPromise = Promise.resolve("");
+    }
+
+    public content(): Promise<string> {
+        return this.contentPromise;
+    }
+}
+
+export class ContentMarkdown extends ContentClass {
+    contentPromise: Promise<string>;
+
+    constructor(configObject: any, markdownFile: string) {
+        super("", "", configObject);
+        this.contentPromise = Query.fetchGETPromise(markdownFile).then((data) => {
+            return md.render(data);
+        });
+    }
+
+    public content(): Promise<string> {
+        return this.contentPromise;
+    }
+}
+
