@@ -1,15 +1,18 @@
 import $ from 'jquery';
 
-import { ContentPerson, ContentSocial, ContentPublications } from './Modules';
+import * as Module from './Modules';
 import * as config from '../../config/default.json';
 
 $(() => {
     
 
     let modules = [
-        new ContentPerson(config),
-        new ContentSocial(config),
-        new ContentPublications(config)
+        new Module.ContentPerson(config),
+        new Module.ContentSocial(config),
+        new Module.ContentMarkdown(config, "https://raw.githubusercontent.com/MaillPierre/personal-page/main/data/Skills.md"),
+        new Module.ContentMarkdown(config, "https://raw.githubusercontent.com/MaillPierre/personal-page/main/data/Previous_position.md"),
+        // new Module.ContentProjects(config),
+        new Module.ContentPublications(config),
     ];
 
     modules.forEach(module => {

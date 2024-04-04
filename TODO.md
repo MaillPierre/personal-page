@@ -1,12 +1,13 @@
-- Github action to retrieve DBLP data asynchronously
-- Use Semantic scholar
-- Co-author graph
+- Github action to retrieve DBLP, GitHub, and semantic scholar data asynchronously
+    - extract article, keywords, co-authors, etc.
+- Use Semantic scholar to retrieve publication data
 - publication/keywords graph
 - Co-authors extraction
 - [x] Keyword extraction
 - github project description
 - direct integration of MD file
-  - "Previous positions" section
-- Skills section
-- Technologies
+    - "Previous positions" section
+    - Skills section
+    - Technologies
+        - Extract from GitHub
 - Mastodon profile
