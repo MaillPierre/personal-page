@@ -1,4 +1,4 @@
-## Previous positions
+## Positions
 
 2021 – Current 
 : Post-doc, ANR DeKaLoG project, INRIA Sophia Antipolis (42 mois)
