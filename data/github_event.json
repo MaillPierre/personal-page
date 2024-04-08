@@ -1,0 +1,1997 @@
+[
+  {
+    "id": "37270099519",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 588613331,
+      "name": "MaillPierre/personal-page",
+      "url": "https://api.github.com/repos/MaillPierre/personal-page"
+    },
+    "payload": {
+      "repository_id": 588613331,
+      "push_id": 17902842832,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "7fccf786e4240a51208f530969a0c3b650baede9",
+      "before": "6dea702d7df909f2b962e1fa924aefa79bf93c29",
+      "commits": [
+        {
+          "sha": "7fccf786e4240a51208f530969a0c3b650baede9",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Better layout",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/7fccf786e4240a51208f530969a0c3b650baede9"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-08T15:29:01Z"
+  },
+  {
+    "id": "37268451337",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17902089502,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/OWLRDFS",
+      "head": "59a0c348de1b4edf185c8685081f4910b158d9b4",
+      "before": "8a8cf7ea8d96e6a70ba5f285b53c89d9a7dd1db7",
+      "commits": [
+        {
+          "sha": "59a0c348de1b4edf185c8685081f4910b158d9b4",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "README addition",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/59a0c348de1b4edf185c8685081f4910b158d9b4"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-08T14:45:12Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37262955884",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17899529034,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/OWLRDFS",
+      "head": "8a8cf7ea8d96e6a70ba5f285b53c89d9a7dd1db7",
+      "before": "d6ef6474d3908cee0b33a587933558ba0b744e3c",
+      "commits": [
+        {
+          "sha": "8a8cf7ea8d96e6a70ba5f285b53c89d9a7dd1db7",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "README addition",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/8a8cf7ea8d96e6a70ba5f285b53c89d9a7dd1db7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-08T12:25:17Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37257983214",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17897130368,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/OWLRDFS",
+      "head": "d6ef6474d3908cee0b33a587933558ba0b744e3c",
+      "before": "56cfd72173014069200bd8e6ba5995563c61ca08",
+      "commits": [
+        {
+          "sha": "d6ef6474d3908cee0b33a587933558ba0b744e3c",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "bug fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/d6ef6474d3908cee0b33a587933558ba0b744e3c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-08T09:52:17Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37257128860",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17896730141,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/OWLRDFS",
+      "head": "56cfd72173014069200bd8e6ba5995563c61ca08",
+      "before": "40010eadf3f0c457cc4b929808e05f68f3f2155b",
+      "commits": [
+        {
+          "sha": "56cfd72173014069200bd8e6ba5995563c61ca08",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "fix experiment script",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/56cfd72173014069200bd8e6ba5995563c61ca08"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-08T09:27:16Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37256967063",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17896653560,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/OWLRDFS",
+      "head": "40010eadf3f0c457cc4b929808e05f68f3f2155b",
+      "before": "41ea04349c4fa15121e216601c6df7e07df48774",
+      "commits": [
+        {
+          "sha": "40010eadf3f0c457cc4b929808e05f68f3f2155b",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "changing the inputed generated rules",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/40010eadf3f0c457cc4b929808e05f68f3f2155b"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-08T09:22:40Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37256574990",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17896467012,
+      "size": 10,
+      "distinct_size": 1,
+      "ref": "refs/heads/OWLRDFS",
+      "head": "41ea04349c4fa15121e216601c6df7e07df48774",
+      "before": "247fd0428a9c629e0ae21e2ffc7a22bb82ca5534",
+      "commits": [
+        {
+          "sha": "00ba3b77d15df0953b9c3d9050bfee33dfc7d48c",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "minor fixes",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/00ba3b77d15df0953b9c3d9050bfee33dfc7d48c"
+        },
+        {
+          "sha": "d6023c8cdab935e99eaa52ee06ec42e0abf4e6bd",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "script to convert the jsonld json export file to TTL",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/d6023c8cdab935e99eaa52ee06ec42e0abf4e6bd"
+        },
+        {
+          "sha": "0797cfbfa8b4714583e04c9afe852153ad442c56",
+          "author": {
+            "email": "1186064+MaillPierre@users.noreply.github.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Update README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/0797cfbfa8b4714583e04c9afe852153ad442c56"
+        },
+        {
+          "sha": "cb9c1c80ffc82fdeb796c6607ad72b73997f65a2",
+          "author": {
+            "email": "1186064+MaillPierre@users.noreply.github.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge pull request #8 from Wimmics/MaillPierre-patch-1\n\nUpdate README.md",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/cb9c1c80ffc82fdeb796c6607ad72b73997f65a2"
+        },
+        {
+          "sha": "896dcfb19bd1335d46b9f822bf47f89113629fbf",
+          "author": {
+            "email": "1186064+MaillPierre@users.noreply.github.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Create CITATION.cff",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/896dcfb19bd1335d46b9f822bf47f89113629fbf"
+        },
+        {
+          "sha": "6f85bc3c726a5bb193dbfe8b5d88983d0e47c351",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "removing duplicate endpoints",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/6f85bc3c726a5bb193dbfe8b5d88983d0e47c351"
+        },
+        {
+          "sha": "7c573f8ee651bf4dfc697273d50b8acda0f26851",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "bug fix",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/7c573f8ee651bf4dfc697273d50b8acda0f26851"
+        },
+        {
+          "sha": "23e37468ea215f22bd38c9d145687d1eb1bcad3b",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'main' into MetaVocabularies",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/23e37468ea215f22bd38c9d145687d1eb1bcad3b"
+        },
+        {
+          "sha": "9bba58f126369d0483836bd30647ed672510c80d",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "ules for DCAT and Void",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/9bba58f126369d0483836bd30647ed672510c80d"
+        },
+        {
+          "sha": "41ea04349c4fa15121e216601c6df7e07df48774",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'DatasetDescriptionVocabularies' into MetaVocabularies",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/41ea04349c4fa15121e216601c6df7e07df48774"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-08T09:11:22Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37256566513",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "ref": "DatasetDescriptionVocabularies",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2024-04-08T09:11:07Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37202647514",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17865141270,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/KartoGraphY",
+      "head": "4c667dfcd845db45336de07ab9d994dc77872aa3",
+      "before": "05e34e47a5032cd94d48722f02fd4ed66c92087e",
+      "commits": [
+        {
+          "sha": "4c667dfcd845db45336de07ab9d994dc77872aa3",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "update and caching scripts",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/4c667dfcd845db45336de07ab9d994dc77872aa3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-05T12:35:28Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37196496477",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "ref": "KartoGraphY",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2024-04-05T09:18:29Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37172467399",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 588613331,
+      "name": "MaillPierre/personal-page",
+      "url": "https://api.github.com/repos/MaillPierre/personal-page"
+    },
+    "payload": {
+      "repository_id": 588613331,
+      "push_id": 17850454038,
+      "size": 3,
+      "distinct_size": 2,
+      "ref": "refs/heads/deploy",
+      "head": "8f24131e32614c7cc2b733f4f11a3aa92ce7e6cd",
+      "before": "18eef34804e080c5ed2f2f71403b1d2babec9d14",
+      "commits": [
+        {
+          "sha": "6dea702d7df909f2b962e1fa924aefa79bf93c29",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "apparence fix",
+          "distinct": false,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/6dea702d7df909f2b962e1fa924aefa79bf93c29"
+        },
+        {
+          "sha": "464c4279947c85cf5d2a5dedb6252807d541d3a8",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'main' into deploy",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/464c4279947c85cf5d2a5dedb6252807d541d3a8"
+        },
+        {
+          "sha": "8f24131e32614c7cc2b733f4f11a3aa92ce7e6cd",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "deploy",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/8f24131e32614c7cc2b733f4f11a3aa92ce7e6cd"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-04T15:39:20Z"
+  },
+  {
+    "id": "37172448088",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 588613331,
+      "name": "MaillPierre/personal-page",
+      "url": "https://api.github.com/repos/MaillPierre/personal-page"
+    },
+    "payload": {
+      "repository_id": 588613331,
+      "push_id": 17850445478,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "6dea702d7df909f2b962e1fa924aefa79bf93c29",
+      "before": "4308cdee51c5eb83ae88704c6235d702405bb072",
+      "commits": [
+        {
+          "sha": "6dea702d7df909f2b962e1fa924aefa79bf93c29",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "apparence fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/6dea702d7df909f2b962e1fa924aefa79bf93c29"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-04T15:38:48Z"
+  },
+  {
+    "id": "37172319136",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 588613331,
+      "name": "MaillPierre/personal-page",
+      "url": "https://api.github.com/repos/MaillPierre/personal-page"
+    },
+    "payload": {
+      "repository_id": 588613331,
+      "push_id": 17850388659,
+      "size": 5,
+      "distinct_size": 2,
+      "ref": "refs/heads/deploy",
+      "head": "18eef34804e080c5ed2f2f71403b1d2babec9d14",
+      "before": "736c6f9b791cf6cc831d6b0efaa983c7378d9b1a",
+      "commits": [
+        {
+          "sha": "ed8b9e8f4b2cb892ebafd22ced38387db30b69d1",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Markdonwd module and start for async data retrieval",
+          "distinct": false,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/ed8b9e8f4b2cb892ebafd22ced38387db30b69d1"
+        },
+        {
+          "sha": "f3a3ee672bc9e1dc34e92a35d1e5b5de1f759499",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "todo update",
+          "distinct": false,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/f3a3ee672bc9e1dc34e92a35d1e5b5de1f759499"
+        },
+        {
+          "sha": "4308cdee51c5eb83ae88704c6235d702405bb072",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "markdown CV update",
+          "distinct": false,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/4308cdee51c5eb83ae88704c6235d702405bb072"
+        },
+        {
+          "sha": "2ddb6d0cd4dda2ac5f1e32e80b861bab7dc162de",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'main' into deploy",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/2ddb6d0cd4dda2ac5f1e32e80b861bab7dc162de"
+        },
+        {
+          "sha": "18eef34804e080c5ed2f2f71403b1d2babec9d14",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "deploy",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/18eef34804e080c5ed2f2f71403b1d2babec9d14"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-04T15:35:18Z"
+  },
+  {
+    "id": "37172258572",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 588613331,
+      "name": "MaillPierre/personal-page",
+      "url": "https://api.github.com/repos/MaillPierre/personal-page"
+    },
+    "payload": {
+      "repository_id": 588613331,
+      "push_id": 17850361263,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/main",
+      "head": "4308cdee51c5eb83ae88704c6235d702405bb072",
+      "before": "f3a3ee672bc9e1dc34e92a35d1e5b5de1f759499",
+      "commits": [
+        {
+          "sha": "4308cdee51c5eb83ae88704c6235d702405bb072",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "markdown CV update",
+          "distinct": true,
+          "url": "https://api.github.com/repos/MaillPierre/personal-page/commits/4308cdee51c5eb83ae88704c6235d702405bb072"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-04T15:33:40Z"
+  },
+  {
+    "id": "37169873990",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17849303144,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/AtomicIntensionDeclaration",
+      "head": "689deb85f1dd966356b9cbc510f785ccf0225c5c",
+      "before": "d954a88ed82853c325157fc05c43bd4d24b3c07d",
+      "commits": [
+        {
+          "sha": "19b294bb40bc468a3b5b387d25b89cf6e804f784",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "experiment script fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/19b294bb40bc468a3b5b387d25b89cf6e804f784"
+        },
+        {
+          "sha": "689deb85f1dd966356b9cbc510f785ccf0225c5c",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "more intermediate classes for FAIRness",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/689deb85f1dd966356b9cbc510f785ccf0225c5c"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-04T14:32:52Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37163811285",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17846512926,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/AtomicIntensionDeclaration",
+      "head": "d954a88ed82853c325157fc05c43bd4d24b3c07d",
+      "before": "2d3c9d5aa8a7e9e586bc25b71f128455baae2a51",
+      "commits": [
+        {
+          "sha": "d954a88ed82853c325157fc05c43bd4d24b3c07d",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "New low level classes for FAIR evaluation",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/d954a88ed82853c325157fc05c43bd4d24b3c07d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-04T11:58:26Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37135609036",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17832855876,
+      "size": 2,
+      "distinct_size": 2,
+      "ref": "refs/heads/AtomicIntensionDeclaration",
+      "head": "2d3c9d5aa8a7e9e586bc25b71f128455baae2a51",
+      "before": "5a1171da20f47a62edb7d1c174e3fde51fda218d",
+      "commits": [
+        {
+          "sha": "3f4c8e90ee75381a55fb892278dbc1e7181d8615",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "first version of FAIR ontology",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/3f4c8e90ee75381a55fb892278dbc1e7181d8615"
+        },
+        {
+          "sha": "2d3c9d5aa8a7e9e586bc25b71f128455baae2a51",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "union with lowest level dataset annotations",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/2d3c9d5aa8a7e9e586bc25b71f128455baae2a51"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-03T17:06:28Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37131103987",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17830730548,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/CommonPitfalls",
+      "head": "4954fc79d9107fbcd4b4a23750484c32eeb6c411",
+      "before": "c60c68ae841b0c9752567df7f82642d093690ad1",
+      "commits": [
+        {
+          "sha": "4954fc79d9107fbcd4b4a23750484c32eeb6c411",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "service report fix",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/4954fc79d9107fbcd4b4a23750484c32eeb6c411"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-03T14:58:04Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37128917760",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 36371940,
+      "name": "Wimmics/corese",
+      "url": "https://api.github.com/repos/Wimmics/corese"
+    },
+    "payload": {
+      "action": "reopened",
+      "issue": {
+        "url": "https://api.github.com/repos/Wimmics/corese/issues/181",
+        "repository_url": "https://api.github.com/repos/Wimmics/corese",
+        "labels_url": "https://api.github.com/repos/Wimmics/corese/issues/181/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Wimmics/corese/issues/181/comments",
+        "events_url": "https://api.github.com/repos/Wimmics/corese/issues/181/events",
+        "html_url": "https://github.com/Wimmics/corese/issues/181",
+        "id": 2222990296,
+        "node_id": "I_kwDOAir95M6EgCPY",
+        "number": 181,
+        "title": "[Bug] Service report query do not return report if there are no binding in the service clause",
+        "user": {
+          "login": "MaillPierre",
+          "id": 1186064,
+          "node_id": "MDQ6VXNlcjExODYwNjQ=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1186064?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MaillPierre",
+          "html_url": "https://github.com/MaillPierre",
+          "followers_url": "https://api.github.com/users/MaillPierre/followers",
+          "following_url": "https://api.github.com/users/MaillPierre/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MaillPierre/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MaillPierre/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MaillPierre/subscriptions",
+          "organizations_url": "https://api.github.com/users/MaillPierre/orgs",
+          "repos_url": "https://api.github.com/users/MaillPierre/repos",
+          "events_url": "https://api.github.com/users/MaillPierre/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MaillPierre/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2024-04-03T13:46:07Z",
+        "updated_at": "2024-04-03T14:04:10Z",
+        "closed_at": null,
+        "author_association": "CONTRIBUTOR",
+        "active_lock_reason": null,
+        "body": "**Issue Description:**\r\n\r\nThe SPARQL service report is not computed if there is no result to the pattern in the service clause.\r\n\r\n**Expected Behavior:**\r\n\r\nTested on a Corese server in sudo mode to authorize any SPARQL service in the query\r\nFirst example query:\r\n```sparql\r\nPREFIX js: <function://fr.inria.corese.core.extension.Report>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nSELECT ?reportModeEndpointUrl ?_service_report_0 ?server WHERE {\r\n  BIND( URI( CONCAT( STR(<http://fr.dbpedia.org/sparql>), \"?mode=report\" ) ) AS ?reportModeEndpointUrl)\r\n  SERVICE ?reportModeEndpointUrl {\r\n    ?s rdfs:label 'Banana'@en . \r\n  }\r\n  values (?_service_report_0 ){\r\n    (UNDEF )\r\n  }\r\n  BIND( js:server() AS ?server)\r\n}\r\n```\r\nThe results should be something like:\r\n```\r\nhttp://fr.dbpedia.org/sparql?mode=report, {...; server:Virtuoso, ...}; Virtuoso\r\n```\r\n\r\n**Actual Behavior:**\r\n\r\nThe example query returns no binding. Bindings are returned when the endpoint URL is passed from HTTP to HTTPS due to an SSL error. Testing on a local Fuseki server showed the same behavior. Even if there are no result corresponding to `?s rdfs:label 'Banana'@en . `, an answer was received from the remote SPARQL endpoint and the report should be bound. The ?s variable does not appear in the result, so the fact that it is not bound is irrelevant.\r\n\r\n**Note to Developers:**\r\n\r\nTested with Corese server 4.5.0.\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/Wimmics/corese/issues/181/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Wimmics/corese/issues/181/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "reopened"
+      }
+    },
+    "public": true,
+    "created_at": "2024-04-03T14:04:11Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37128505009",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 36371940,
+      "name": "Wimmics/corese",
+      "url": "https://api.github.com/repos/Wimmics/corese"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/Wimmics/corese/issues/181",
+        "repository_url": "https://api.github.com/repos/Wimmics/corese",
+        "labels_url": "https://api.github.com/repos/Wimmics/corese/issues/181/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Wimmics/corese/issues/181/comments",
+        "events_url": "https://api.github.com/repos/Wimmics/corese/issues/181/events",
+        "html_url": "https://github.com/Wimmics/corese/issues/181",
+        "id": 2222990296,
+        "node_id": "I_kwDOAir95M6EgCPY",
+        "number": 181,
+        "title": "[Bug] Incoherent binding behaviour using SPARQL service report ",
+        "user": {
+          "login": "MaillPierre",
+          "id": 1186064,
+          "node_id": "MDQ6VXNlcjExODYwNjQ=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1186064?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MaillPierre",
+          "html_url": "https://github.com/MaillPierre",
+          "followers_url": "https://api.github.com/users/MaillPierre/followers",
+          "following_url": "https://api.github.com/users/MaillPierre/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MaillPierre/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MaillPierre/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MaillPierre/subscriptions",
+          "organizations_url": "https://api.github.com/users/MaillPierre/orgs",
+          "repos_url": "https://api.github.com/users/MaillPierre/repos",
+          "events_url": "https://api.github.com/users/MaillPierre/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MaillPierre/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2024-04-03T13:46:07Z",
+        "updated_at": "2024-04-03T13:54:04Z",
+        "closed_at": "2024-04-03T13:54:04Z",
+        "author_association": "CONTRIBUTOR",
+        "active_lock_reason": null,
+        "body": "**Issue Description:**\r\n\r\nFor some endpoints, the SPARQL service report is not computed.\r\n\r\n**Bug Details:**\r\n\r\nSome queries in report mode do not return any report. Reports may be returned in case of an access error.\r\n\r\n**Expected Behavior:**\r\n\r\nTested on a Corese server in sudo mode to authorize any SPARQL service in the query\r\nFirst example query:\r\n```sparql\r\nPREFIX js: <function://fr.inria.corese.core.extension.Report>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nSELECT ?reportModeEndpointUrl ?_service_report_0 ?server WHERE {\r\n  BIND( URI( CONCAT( STR(<http://fr.dbpedia.org/sparql>), \"?mode=report\" ) ) AS ?reportModeEndpointUrl)\r\n  SERVICE ?reportModeEndpointUrl {\r\n    ?s rdfs:label 'Banana'@en . \r\n  }\r\n  values (?_service_report_0 ){\r\n    (UNDEF )\r\n  }\r\n  BIND( js:server() AS ?server)\r\n}\r\n```\r\nAs the response headers are:\r\n```\r\nHTTP/1.1 200 OK\r\nDate: Wed, 03 Apr 2024 13:31:54 GMT\r\nAccess-Control-Allow-Origin: *\r\nContent-Type: application/sparql-results+json\r\nContent-Length: 117\r\nServer: Jetty(11.0.14)\r\n```\r\nThe results should be something like:\r\n```\r\nhttp://fr.dbpedia.org/sparql?mode=report, {...; server:Jetty, ...}; Jetty\r\n```\r\n\r\n**Actual Behavior:**\r\n\r\nThe example query returns no binding. Bindings are returned when the endpoint URL is passed from HTTP to HTTPS due to an SSL error. Testing on a local Fuseki server showed the same behavior.\r\nFor some reason, the same query sent to DBPedia will return a report as expected.\r\n\r\n**Note to Developers:**\r\n\r\nTested with Corese server 4.5.0.\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/Wimmics/corese/issues/181/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Wimmics/corese/issues/181/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed"
+      }
+    },
+    "public": true,
+    "created_at": "2024-04-03T13:54:04Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37128179795",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 36371940,
+      "name": "Wimmics/corese",
+      "url": "https://api.github.com/repos/Wimmics/corese"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "url": "https://api.github.com/repos/Wimmics/corese/issues/181",
+        "repository_url": "https://api.github.com/repos/Wimmics/corese",
+        "labels_url": "https://api.github.com/repos/Wimmics/corese/issues/181/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Wimmics/corese/issues/181/comments",
+        "events_url": "https://api.github.com/repos/Wimmics/corese/issues/181/events",
+        "html_url": "https://github.com/Wimmics/corese/issues/181",
+        "id": 2222990296,
+        "node_id": "I_kwDOAir95M6EgCPY",
+        "number": 181,
+        "title": "[Bug] Incoherent binding behaviour using SPARQL service report ",
+        "user": {
+          "login": "MaillPierre",
+          "id": 1186064,
+          "node_id": "MDQ6VXNlcjExODYwNjQ=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1186064?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MaillPierre",
+          "html_url": "https://github.com/MaillPierre",
+          "followers_url": "https://api.github.com/users/MaillPierre/followers",
+          "following_url": "https://api.github.com/users/MaillPierre/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MaillPierre/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MaillPierre/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MaillPierre/subscriptions",
+          "organizations_url": "https://api.github.com/users/MaillPierre/orgs",
+          "repos_url": "https://api.github.com/users/MaillPierre/repos",
+          "events_url": "https://api.github.com/users/MaillPierre/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MaillPierre/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2024-04-03T13:46:07Z",
+        "updated_at": "2024-04-03T13:46:07Z",
+        "closed_at": null,
+        "author_association": "CONTRIBUTOR",
+        "active_lock_reason": null,
+        "body": "**Issue Description:**\r\n\r\nFor some endpoints, the SPARQL service report is not computed.\r\n\r\n**Bug Details:**\r\n\r\nSome queries in report mode do not return any report. Reports may be returned in case of an access error.\r\n\r\n**Expected Behavior:**\r\n\r\nTested on a Corese server in sudo mode to authorize any SPARQL service in the query\r\nFirst example query:\r\n```sparql\r\nPREFIX js: <function://fr.inria.corese.core.extension.Report>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\n\r\nSELECT ?reportModeEndpointUrl ?_service_report_0 ?server WHERE {\r\n  BIND( URI( CONCAT( STR(<http://fr.dbpedia.org/sparql>), \"?mode=report\" ) ) AS ?reportModeEndpointUrl)\r\n  SERVICE ?reportModeEndpointUrl {\r\n    ?s rdfs:label 'Banana'@en . \r\n  }\r\n  values (?_service_report_0 ){\r\n    (UNDEF )\r\n  }\r\n  BIND( js:server() AS ?server)\r\n}\r\n```\r\nAs the response headers are:\r\n```\r\nHTTP/1.1 200 OK\r\nDate: Wed, 03 Apr 2024 13:31:54 GMT\r\nAccess-Control-Allow-Origin: *\r\nContent-Type: application/sparql-results+json\r\nContent-Length: 117\r\nServer: Jetty(11.0.14)\r\n```\r\nThe results should be something like:\r\n```\r\nhttp://fr.dbpedia.org/sparql?mode=report, {...; server:Jetty, ...}; Jetty\r\n```\r\n\r\n**Actual Behavior:**\r\n\r\nThe example query returns no binding. Bindings are returned when the endpoint URL is passed from HTTP to HTTPS due to an SSL error. Testing on a local Fuseki server showed the same behavior.\r\nFor some reason, the same query sent to DBPedia will return a report as expected.\r\n\r\n**Note to Developers:**\r\n\r\nTested with Corese server 4.5.0.\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/Wimmics/corese/issues/181/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Wimmics/corese/issues/181/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      }
+    },
+    "public": true,
+    "created_at": "2024-04-03T13:46:08Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "37078741827",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17805657581,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/QualityShopper",
+      "head": "7bfaa3dc73e311c3c5ca26c0eaf684241584ade6",
+      "before": "1ea7ef5dcf38d402402f7bccf4b12107ad11d538",
+      "commits": [
+        {
+          "sha": "7bfaa3dc73e311c3c5ca26c0eaf684241584ade6",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "fix of artifacts",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/7bfaa3dc73e311c3c5ca26c0eaf684241584ade6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-04-02T08:55:49Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36800205175",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17663708719,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/QualityShopper",
+      "head": "1ea7ef5dcf38d402402f7bccf4b12107ad11d538",
+      "before": "afaca4cbe1ec51560362ca987020d92e29528cc8",
+      "commits": [
+        {
+          "sha": "1ea7ef5dcf38d402402f7bccf4b12107ad11d538",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "First version of the rules for QualityShopper",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/1ea7ef5dcf38d402402f7bccf4b12107ad11d538"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-03-22T14:34:17Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36796875730",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 36371940,
+      "name": "Wimmics/corese",
+      "url": "https://api.github.com/repos/Wimmics/corese"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/Wimmics/corese/issues/179",
+        "repository_url": "https://api.github.com/repos/Wimmics/corese",
+        "labels_url": "https://api.github.com/repos/Wimmics/corese/issues/179/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Wimmics/corese/issues/179/comments",
+        "events_url": "https://api.github.com/repos/Wimmics/corese/issues/179/events",
+        "html_url": "https://github.com/Wimmics/corese/issues/179",
+        "id": 2202135665,
+        "node_id": "I_kwDOAir95M6DQexx",
+        "number": 179,
+        "title": "base keyword breaks hash based URIs",
+        "user": {
+          "login": "NicoRobertIn",
+          "id": 144037080,
+          "node_id": "U_kgDOCJXU2A",
+          "avatar_url": "https://avatars.githubusercontent.com/u/144037080?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/NicoRobertIn",
+          "html_url": "https://github.com/NicoRobertIn",
+          "followers_url": "https://api.github.com/users/NicoRobertIn/followers",
+          "following_url": "https://api.github.com/users/NicoRobertIn/following{/other_user}",
+          "gists_url": "https://api.github.com/users/NicoRobertIn/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/NicoRobertIn/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/NicoRobertIn/subscriptions",
+          "organizations_url": "https://api.github.com/users/NicoRobertIn/orgs",
+          "repos_url": "https://api.github.com/users/NicoRobertIn/repos",
+          "events_url": "https://api.github.com/users/NicoRobertIn/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/NicoRobertIn/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 6,
+        "created_at": "2024-03-22T10:03:14Z",
+        "updated_at": "2024-03-22T12:56:05Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "**Issue Description:**\r\n\r\nThe parser ruins the URI part passed to the `@base` keyword if this URI part is hash based\r\n\r\n**Bug Details:**\r\n\r\nWhen a URI is passed to the base keyword in a turtle file, if this URI ends with a #, then a part of this URI is lost during parsing, ruining all the URIs of the graph using this base\r\n\r\n**Steps to Reproduce:**\r\n\r\n1. Create a turtle file using a base with a hash based URI and add a triple with a URI using this base. For example this one:\r\n\r\n```turtle\r\n@base <https://example.org/route/disappeared#> .\r\n\r\n<BrokenURI> a owl:Class .\r\n```\r\n\r\n2. Query that base with a construct request that will retrieve that URI, for example:\r\n\r\n```sparql\r\nconstruct {?s ?p ?o} where {?s ?p ?o }\r\n```\r\n\r\n**Expected Behavior:**\r\n\r\nThe broken URI should be `<https://example.org/route/disappeared#BrokenURI>`\r\n\r\n**Actual Behavior:**\r\n\r\nThe following turtle is returned\r\n\r\n```turtle\r\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\r\n@prefix ns1: <https://example.org/route/> .\r\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\r\n\r\nns1:BrokenURI a owl:Class .\r\n\r\nrdf:type a rdf:Property .\r\n```\r\n\r\nFrom this result we can conclude that the BrokenURI is now `<https://example.org/route/BrokenURI>`, which is different from `<https://example.org/route/disappeared#BrokenURI>`\r\n\r\n**Note to Developers:**\r\n\r\nThis behaviour was tested on Corese python, Corese command and Corese GUI on different computers.\r\n\r\nThe same URI modification can also be seen with a simple `select * where {?s ?p ?o}` request\r\n\r\n**Screenshots/Attachments:**\r\n\r\n![image](https://github.com/Wimmics/corese/assets/144037080/d3d629e7-4394-43f0-b601-c0d068f73c6c)\r\n![image](https://github.com/Wimmics/corese/assets/144037080/dd5005ad-2438-46e0-b960-c61456008864)\r\n![image](https://github.com/Wimmics/corese/assets/144037080/4c50381a-0ffd-4c21-9bb6-bd1ab4c86365)\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/Wimmics/corese/issues/179/reactions",
+          "total_count": 1,
+          "+1": 1,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Wimmics/corese/issues/179/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/Wimmics/corese/issues/comments/2015047107",
+        "html_url": "https://github.com/Wimmics/corese/issues/179#issuecomment-2015047107",
+        "issue_url": "https://api.github.com/repos/Wimmics/corese/issues/179",
+        "id": 2015047107,
+        "node_id": "IC_kwDOAir95M54Gy3D",
+        "user": {
+          "login": "MaillPierre",
+          "id": 1186064,
+          "node_id": "MDQ6VXNlcjExODYwNjQ=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1186064?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MaillPierre",
+          "html_url": "https://github.com/MaillPierre",
+          "followers_url": "https://api.github.com/users/MaillPierre/followers",
+          "following_url": "https://api.github.com/users/MaillPierre/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MaillPierre/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MaillPierre/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MaillPierre/subscriptions",
+          "organizations_url": "https://api.github.com/users/MaillPierre/orgs",
+          "repos_url": "https://api.github.com/users/MaillPierre/repos",
+          "events_url": "https://api.github.com/users/MaillPierre/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MaillPierre/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2024-03-22T12:56:05Z",
+        "updated_at": "2024-03-22T12:56:05Z",
+        "author_association": "CONTRIBUTOR",
+        "body": "@frmichel good catch, I updated the regex by decomposing the UCHAR regex: [https://regex101.com/r/05Bh3v/3](https://regex101.com/r/05Bh3v/3)\r\nIt stills validate `<https://example.org/route/disappeared#BrokenURI>`",
+        "reactions": {
+          "url": "https://api.github.com/repos/Wimmics/corese/issues/comments/2015047107/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2024-03-22T12:56:06Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36796124031",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 36371940,
+      "name": "Wimmics/corese",
+      "url": "https://api.github.com/repos/Wimmics/corese"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/Wimmics/corese/issues/179",
+        "repository_url": "https://api.github.com/repos/Wimmics/corese",
+        "labels_url": "https://api.github.com/repos/Wimmics/corese/issues/179/labels{/name}",
+        "comments_url": "https://api.github.com/repos/Wimmics/corese/issues/179/comments",
+        "events_url": "https://api.github.com/repos/Wimmics/corese/issues/179/events",
+        "html_url": "https://github.com/Wimmics/corese/issues/179",
+        "id": 2202135665,
+        "node_id": "I_kwDOAir95M6DQexx",
+        "number": 179,
+        "title": "base keyword breaks hash based URIs",
+        "user": {
+          "login": "NicoRobertIn",
+          "id": 144037080,
+          "node_id": "U_kgDOCJXU2A",
+          "avatar_url": "https://avatars.githubusercontent.com/u/144037080?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/NicoRobertIn",
+          "html_url": "https://github.com/NicoRobertIn",
+          "followers_url": "https://api.github.com/users/NicoRobertIn/followers",
+          "following_url": "https://api.github.com/users/NicoRobertIn/following{/other_user}",
+          "gists_url": "https://api.github.com/users/NicoRobertIn/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/NicoRobertIn/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/NicoRobertIn/subscriptions",
+          "organizations_url": "https://api.github.com/users/NicoRobertIn/orgs",
+          "repos_url": "https://api.github.com/users/NicoRobertIn/repos",
+          "events_url": "https://api.github.com/users/NicoRobertIn/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/NicoRobertIn/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "assignees": [
+
+        ],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2024-03-22T10:03:14Z",
+        "updated_at": "2024-03-22T12:31:34Z",
+        "closed_at": null,
+        "author_association": "NONE",
+        "active_lock_reason": null,
+        "body": "**Issue Description:**\r\n\r\nThe parser ruins the URI part passed to the `@base` keyword if this URI part is hash based\r\n\r\n**Bug Details:**\r\n\r\nWhen a URI is passed to the base keyword in a turtle file, if this URI ends with a #, then a part of this URI is lost during parsing, ruining all the URIs of the graph using this base\r\n\r\n**Steps to Reproduce:**\r\n\r\n1. Create a turtle file using a base with a hash based URI and add a triple with a URI using this base. For example this one:\r\n\r\n```turtle\r\n@base <https://example.org/route/disappeared#> .\r\n\r\n<BrokenURI> a owl:Class .\r\n```\r\n\r\n2. Query that base with a construct request that will retrieve that URI, for example:\r\n\r\n```sparql\r\nconstruct {?s ?p ?o} where {?s ?p ?o }\r\n```\r\n\r\n**Expected Behavior:**\r\n\r\nThe broken URI should be `<https://example.org/route/disappeared#BrokenURI>`\r\n\r\n**Actual Behavior:**\r\n\r\nThe following turtle is returned\r\n\r\n```turtle\r\n@prefix owl: <http://www.w3.org/2002/07/owl#> .\r\n@prefix ns1: <https://example.org/route/> .\r\n@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\r\n\r\nns1:BrokenURI a owl:Class .\r\n\r\nrdf:type a rdf:Property .\r\n```\r\n\r\nFrom this result we can conclude that the BrokenURI is now `<https://example.org/route/BrokenURI>`, which is different from `<https://example.org/route/disappeared#BrokenURI>`\r\n\r\n**Note to Developers:**\r\n\r\nThis behaviour was tested on Corese python, Corese command and Corese GUI on different computers.\r\n\r\nThe same URI modification can also be seen with a simple `select * where {?s ?p ?o}` request\r\n\r\n**Screenshots/Attachments:**\r\n\r\n![image](https://github.com/Wimmics/corese/assets/144037080/d3d629e7-4394-43f0-b601-c0d068f73c6c)\r\n![image](https://github.com/Wimmics/corese/assets/144037080/dd5005ad-2438-46e0-b960-c61456008864)\r\n![image](https://github.com/Wimmics/corese/assets/144037080/4c50381a-0ffd-4c21-9bb6-bd1ab4c86365)\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/Wimmics/corese/issues/179/reactions",
+          "total_count": 1,
+          "+1": 1,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/Wimmics/corese/issues/179/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/Wimmics/corese/issues/comments/2014981595",
+        "html_url": "https://github.com/Wimmics/corese/issues/179#issuecomment-2014981595",
+        "issue_url": "https://api.github.com/repos/Wimmics/corese/issues/179",
+        "id": 2014981595,
+        "node_id": "IC_kwDOAir95M54Gi3b",
+        "user": {
+          "login": "MaillPierre",
+          "id": 1186064,
+          "node_id": "MDQ6VXNlcjExODYwNjQ=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/1186064?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/MaillPierre",
+          "html_url": "https://github.com/MaillPierre",
+          "followers_url": "https://api.github.com/users/MaillPierre/followers",
+          "following_url": "https://api.github.com/users/MaillPierre/following{/other_user}",
+          "gists_url": "https://api.github.com/users/MaillPierre/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/MaillPierre/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/MaillPierre/subscriptions",
+          "organizations_url": "https://api.github.com/users/MaillPierre/orgs",
+          "repos_url": "https://api.github.com/users/MaillPierre/repos",
+          "events_url": "https://api.github.com/users/MaillPierre/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/MaillPierre/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2024-03-22T12:31:34Z",
+        "updated_at": "2024-03-22T12:31:34Z",
+        "author_association": "CONTRIBUTOR",
+        "body": "The turtle syntax says that [\"@base\" should be followed by an IRIREF](https://www.w3.org/TR/2014/REC-turtle-20140225/#grammar-production-base).\r\nAn [IRIREF must correspond to the following form](https://www.w3.org/TR/2014/REC-turtle-20140225/#grammar-production-IRIREF): `'<' ([^#x00-#x20<>\"{}|^`\\] | UCHAR)* '>'`\r\nWhich I translate as the REGEX: `<([^\\x00\\-\\x20<>\"{}|^`\\\\]|\\X)*>`\r\nThis regex [validates `<https://raw.githubusercontent.com/acimov-tools/model-test/main/.acimov/custom-tests/shapes.ttl#>`](https://regex101.com/r/LagHHV/1).\r\n\r\nUnless my regex is wrong, the Turtle recommendation says that the base URL used in OP's file is correct.",
+        "reactions": {
+          "url": "https://api.github.com/repos/Wimmics/corese/issues/comments/2014981595/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2024-03-22T12:31:34Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36756309713",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17643230318,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/QualityShopper",
+      "head": "afaca4cbe1ec51560362ca987020d92e29528cc8",
+      "before": "d8315ec8d8c6403273a21d3d6802f61ff3870270",
+      "commits": [
+        {
+          "sha": "afaca4cbe1ec51560362ca987020d92e29528cc8",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Accountability ontology pour Watdiv",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/afaca4cbe1ec51560362ca987020d92e29528cc8"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-03-21T10:55:06Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36755786704",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17642991227,
+      "size": 136,
+      "distinct_size": 1,
+      "ref": "refs/heads/QualityShopper",
+      "head": "d8315ec8d8c6403273a21d3d6802f61ff3870270",
+      "before": "61bbe4c5b08df6187784bed9e59d3a7c31c054d8",
+      "commits": [
+        {
+          "sha": "bec0f2eaf12ee590a210a7bf41473877101d8773",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'main' into BetterPartitions",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/bec0f2eaf12ee590a210a7bf41473877101d8773"
+        },
+        {
+          "sha": "57f82120d70d93801d584aa502f8c89b0155a6f0",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Limiting endpoint to those that are online recently",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/57f82120d70d93801d584aa502f8c89b0155a6f0"
+        },
+        {
+          "sha": "fb1faa8d0aa2645730a217545fe210ee6d0bfd82",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "fix experiment launch",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/fb1faa8d0aa2645730a217545fe210ee6d0bfd82"
+        },
+        {
+          "sha": "06a6aeb08cfb8f3422aa9bb3a538d43f7a2e34f2",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Better URI cleaning",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/06a6aeb08cfb8f3422aa9bb3a538d43f7a2e34f2"
+        },
+        {
+          "sha": "af410ef76caa19b94330864bea688b309aafff61",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Turtle file cleaning",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/af410ef76caa19b94330864bea688b309aafff61"
+        },
+        {
+          "sha": "e5d50ad0e1ea594b4ee7a5d506a043e17b8b1b80",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Mor URI cleaning",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/e5d50ad0e1ea594b4ee7a5d506a043e17b8b1b80"
+        },
+        {
+          "sha": "1456a5118f57ba7dc32aae1bb5751c61c098e38a",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "import of old working document",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/1456a5118f57ba7dc32aae1bb5751c61c098e38a"
+        },
+        {
+          "sha": "8ac169d6e12ae58bb4fab039296e098305b9f62f",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Adding some comments to the old file",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/8ac169d6e12ae58bb4fab039296e098305b9f62f"
+        },
+        {
+          "sha": "1404bc14a90d39509ecda79cef376e74356836b1",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "New endpoint from X",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/1404bc14a90d39509ecda79cef376e74356836b1"
+        },
+        {
+          "sha": "858fe8c853c454514989d1476fadffc536566f00",
+          "author": {
+            "email": "1186064+MaillPierre@users.noreply.github.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Update crawling_catalog.ttl",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/858fe8c853c454514989d1476fadffc536566f00"
+        },
+        {
+          "sha": "d5863ee07fa630b61ae1c42ed014182e2e7cea1d",
+          "author": {
+            "email": "1186064+MaillPierre@users.noreply.github.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Update crawling_catalog.ttl",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/d5863ee07fa630b61ae1c42ed014182e2e7cea1d"
+        },
+        {
+          "sha": "24a6de0a0535b0b770c030c3bc0ec30a170ab425",
+          "author": {
+            "email": "1186064+MaillPierre@users.noreply.github.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Update crawling_catalog.ttl",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/24a6de0a0535b0b770c030c3bc0ec30a170ab425"
+        },
+        {
+          "sha": "0a2df8ef7eb24388bf1b50c7bfd773a42316715a",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "adds note",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/0a2df8ef7eb24388bf1b50c7bfd773a42316715a"
+        },
+        {
+          "sha": "a3ee812d8165267b133a180c7774ff71e46799ab",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'QualityShopper'",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/a3ee812d8165267b133a180c7774ff71e46799ab"
+        },
+        {
+          "sha": "f8c96218dad659e46ec70dc048c9b51f773e0a1d",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'BetterPartitions'",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/f8c96218dad659e46ec70dc048c9b51f773e0a1d"
+        },
+        {
+          "sha": "083f6c9d62b0aeaaaf594878c9b4df05469db929",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "adding druid's list of endpoints",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/083f6c9d62b0aeaaaf594878c9b4df05469db929"
+        },
+        {
+          "sha": "962af5268d81e91d262a9e0398952858d055a782",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Merge branch 'catalog_auto_refresh'",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/962af5268d81e91d262a9e0398952858d055a782"
+        },
+        {
+          "sha": "c1889d17d4f7ed7999bfba26b964768e884f5d1d",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "druid endpoints",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/c1889d17d4f7ed7999bfba26b964768e884f5d1d"
+        },
+        {
+          "sha": "7a93792014ca877c7d85d9230d8685ac2e9774df",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "manual catalog update",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/7a93792014ca877c7d85d9230d8685ac2e9774df"
+        },
+        {
+          "sha": "e675b756e7039dd4c2dcdc9a6ee14ab7704b9710",
+          "author": {
+            "email": "1186064+MaillPierre@users.noreply.github.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "Delete catalogs/catalog.auto_refresh.trig",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/e675b756e7039dd4c2dcdc9a6ee14ab7704b9710"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-03-21T10:39:19Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36753105421",
+    "type": "PushEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "repository_id": 571952703,
+      "push_id": 17641749639,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/AtomicIntensionDeclaration",
+      "head": "5a1171da20f47a62edb7d1c174e3fde51fda218d",
+      "before": "22a29864628fbc91c3b726d7ef9257737e08139f",
+      "commits": [
+        {
+          "sha": "5a1171da20f47a62edb7d1c174e3fde51fda218d",
+          "author": {
+            "email": "maillpierre@gmail.com",
+            "name": "Pierre Maillot"
+          },
+          "message": "replacing union of Thing and literal in restriction to rdfs:Resource",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Wimmics/IndeGx/commits/5a1171da20f47a62edb7d1c174e3fde51fda218d"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2024-03-21T09:22:04Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36693493328",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "ref": "CommonPitfalls",
+      "ref_type": "branch",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2024-03-19T17:17:14Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  },
+  {
+    "id": "36690227954",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 1186064,
+      "login": "MaillPierre",
+      "display_login": "MaillPierre",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/MaillPierre",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1186064?"
+    },
+    "repo": {
+      "id": 571952703,
+      "name": "Wimmics/IndeGx",
+      "url": "https://api.github.com/repos/Wimmics/IndeGx"
+    },
+    "payload": {
+      "ref": "CommonSPARQLErrors",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2024-03-19T15:45:43Z",
+    "org": {
+      "id": 12628018,
+      "login": "Wimmics",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/Wimmics",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12628018?"
+    }
+  }
+]

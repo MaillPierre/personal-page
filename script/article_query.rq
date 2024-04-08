@@ -1,0 +1,12 @@
+PREFIX dblp: <https://dblp.org/rdf/schema#>
+PREFIX xt: <http://ns.inria.fr/sparql-extension/>
+
+CONSTRUCT {
+    ?s ?p ?o
+} {
+    ?person dblp:authorOf ?article .
+    bind (xt:load(?article) as ?g)
+    GRAPH ?g {
+        ?s ?p ?o
+    }
+}

@@ -8,13 +8,6 @@
 - C++
 - Bash
 
-### Frameworks
-
-- React
-- Angular
-- Spring
-- Express
-
 ### Tools
 
 - Git
@@ -29,3 +22,5 @@
 
 - French: native
 - English: fluent
+
+---
