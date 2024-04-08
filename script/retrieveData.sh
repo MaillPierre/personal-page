@@ -17,9 +17,11 @@ fi
 # Retrieve the DBLP files
 # https://dblp.org/pid/${this.idDBLP}.ttl
 dblp_person=../data/dblp_person.ttl
+article_query_file=article_query.rq
 tmp_dblp_person_file=../data/dblp_person.jsonld
 ./$jq_executable '.["social"]["dblp"]' ../config/default.json | xargs -I {} curl -s -o $dblp_person https://dblp.org/pid/{}.ttl 
-java -jar $corese_jar convert -i $dblp_person -if text/turtle -o $tmp_dblp_person_file -of jsonld
+dblp_articles_file=../data/dblp_articles.ttl
+java -jar $corese_jar sparql -w -i $dblp_person -o $dblp_articles_file -of turtle -q $article_query_file
 
 # Retrieve the content of the github repository
 github_event_file=../data/github_event.json
