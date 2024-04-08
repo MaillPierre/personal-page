@@ -1,0 +1,1242 @@
+@prefix ns2: <http://purl.org/spar/datacite/> .
+@prefix ns60: <https://dblp.org/db/conf/f-egc/> .
+@prefix ns1: <https://dblp.org/rec/conf/ekaw/> .
+@prefix ns4: <http://dx.doi.org/10.1007/> .
+@prefix ns3: <https://doi.org/10.1007/> .
+@prefix ns6: <https://dblp.org/pid/19/> .
+@prefix ns53: <https://dblp.org/rec/conf/f-egc/> .
+@prefix ns5: <https://dblp.org/pid/143/> .
+@prefix ns52: <https://dblp.org/rec/conf/webi/> .
+@prefix ns8: <https://dblp.org/pid/d/> .
+@prefix ns51: <https://dblp.org/db/journals/dn/> .
+@prefix ns7: <https://dblp.org/pid/06/> .
+@prefix ns50: <http://dx.doi.org/10.3166/> .
+@prefix ns57: <https://dblp.org/db/journals/ws/> .
+@prefix ns9: <https://dblp.org/pid/200/> .
+@prefix ns56: <http://dx.doi.org/10.1016/> .
+@prefix ns55: <https://doi.org/10.1016/> .
+@prefix ns54: <https://dblp.org/rec/journals/ws/> .
+@prefix ns59: <http://editions-rnti.fr/> .
+@prefix ns58: <https://dblp.org/rec/conf/www/> .
+@prefix ns42: <http://dx.doi.org/10.3233/> .
+@prefix ns41: <https://doi.org/10.3233/> .
+@prefix ns40: <https://dblp.org/rec/journals/semweb/> .
+@prefix ns46: <https://dblp.org/rec/conf/sac/> .
+@prefix ns45: <https://dblp.org/db/journals/semweb/> .
+@prefix ns44: <https://dblp.org/pid/77/> .
+@prefix ns43: <http://www.wikidata.org/entity/> .
+@prefix ns49: <https://doi.org/10.3166/> .
+@prefix ns48: <https://dblp.org/rec/journals/dn/> .
+@prefix ns47: <https://dblp.org/rec/phd/hal/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns75: <https://dblp.org/db/conf/www/> .
+@prefix ns74: <https://dblp.org/rec/journals/ercim/> .
+@prefix ns73: <https://dblp.org/db/conf/webist/> .
+@prefix ns72: <https://dblp.org/pid/43/> .
+@prefix ns79: <http://purl.org/spar/literal/> .
+@prefix ns78: <https://orcid.org/> .
+@prefix ns77: <https://dblp.org/db/journals/ercim/> .
+@prefix ns76: <https://ercim-news.ercim.eu/en133/special/> .
+@prefix ns71: <https://dblp.org/pid/177/> .
+@prefix ns70: <https://dblp.org/db/conf/sac/> .
+@prefix ns64: <http://dx.doi.org/10.5220/> .
+@prefix ns63: <https://doi.org/10.5220/> .
+@prefix ns62: <https://dblp.org/rec/conf/icaart/> .
+@prefix ns61: <https://dblp.org/db/conf/webi/> .
+@prefix ns68: <https://doi.org/10.1145/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns67: <https://dblp.org/db/conf/dexa/> .
+@prefix ns66: <https://tel.archives-ouvertes.fr/> .
+@prefix ns65: <https://dblp.org/db/conf/icaart/> .
+@prefix ns69: <http://dx.doi.org/10.1145/> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix ns13: <https://> .
+@prefix ns12: <https://dblp.org/rec/conf/inforsid/> .
+@prefix ns11: <https://dblp.org/db/conf/ekaw/> .
+@prefix ns10: <http://purl.org/net/nknouf/ns/bibtex#> .
+@prefix ns17: <https://dblp.org/pid/f/> .
+@prefix ns16: <https://dblp.org/pid/c/> .
+@prefix ns15: <https://dblp.org/rec/conf/esws/> .
+@prefix ns14: <https://dblp.org/rdf/> .
+@prefix ns19: <https://dblp.org/pid/20/> .
+@prefix ns18: <https://dblp.org/pid/g/> .
+@prefix dblp: <https://dblp.org/rdf/schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ns31: <https://doi.org/10.1109/> .
+@prefix ns30: <https://dblp.org/rec/conf/sitis/> .
+@prefix ns35: <https://dblp.org/pid/42/> .
+@prefix ns34: <https://dblp.org/pid/60/> .
+@prefix ns33: <https://dblp.org/pid/69/> .
+@prefix ns32: <http://dx.doi.org/10.1109/> .
+@prefix ns39: <https://dblp.org/db/conf/inforsid/> .
+@prefix ns38: <http://inforsid.fr/actes/2013/> .
+@prefix ns37: <https://dblp.org/db/conf/sitis/> .
+@prefix ns36: <https://doi.ieeecomputersociety.org/10.1109/> .
+@prefix ns20: <https://dblp.org/db/conf/esws/> .
+@prefix ns24: <https://doi.org/10.48550/> .
+@prefix ns23: <https://dblp.org/rec/journals/corr/> .
+@prefix ns22: <https://dblp.org/rec/conf/webist/> .
+@prefix ns21: <https://dblp.org/rec/conf/dexa/> .
+@prefix ns28: <https://dblp.org/pid/59/> .
+@prefix ns27: <https://dblp.org/pid/53/> .
+@prefix ns26: <https://dblp.org/pid/303/> .
+@prefix ns25: <http://dx.doi.org/10.48550/> .
+@prefix xt: <http://ns.inria.fr/sparql-extension/> .
+@prefix ns29: <https://dblp.org/db/journals/corr/> .
+
+ns1:MaillotFCDP16 ns2:hasIdentifier _:b67 ;
+  ns2:hasIdentifier _:b68 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot et al.: FORMULIS: Dynamic Form-Based Interface for Guided Knowledge Graph Authoring. (2016)" ;
+  owl:sameAs ns3:978-3-319-58694-6_18 ;
+  owl:sameAs ns4:978-3-319-58694-6_18 ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns6:3784 ;
+  dblp:authoredBy ns7:2167 ;
+  dblp:authoredBy ns8:MDucasse ;
+  dblp:authoredBy ns9:0935 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage ns3:978-3-319-58694-6_18 ;
+  dblp:doi ns3:978-3-319-58694-6_18 ;
+  dblp:doi ns4:978-3-319-58694-6_18 ;
+  dblp:hasSignature _:b69 ;
+  dblp:hasSignature _:b70 ;
+  dblp:hasSignature _:b71 ;
+  dblp:hasSignature _:b72 ;
+  dblp:hasSignature _:b73 ;
+  dblp:listedOnTocPage ns11:ekaw2016s ;
+  dblp:numberOfCreators 5 ;
+  dblp:pagination "140-144" ;
+  dblp:primaryDocumentPage ns3:978-3-319-58694-6_18 ;
+  dblp:publishedAsPartOf ns1:2016s ;
+  dblp:publishedIn "EKAW (Satellite Events)" ;
+  dblp:publishedInBook "EKAW (Satellite Events)" ;
+  dblp:title "FORMULIS: Dynamic Form-Based Interface for Guided Knowledge Graph Authoring." ;
+  dblp:yearOfEvent "2016"^^xsd:gYear ;
+  dblp:yearOfPublication "2017"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/inforsid/RaimbaultM13.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2021-02-01T08:42:08+0100" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/inforsid/RaimbaultM13'" .
+
+ns15:MaillotCFGM22 ns2:hasIdentifier _:b33 ;
+  ns2:hasIdentifier _:b34 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot et al.: KartoGraphI: Drawing a Map of Linked Data. (2022)" ;
+  owl:sameAs ns3:978-3-031-11609-4_21 ;
+  owl:sameAs ns4:978-3-031-11609-4_21 ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns16:OlivierCorby ;
+  dblp:authoredBy ns17:CatherineFaronZucker ;
+  dblp:authoredBy ns18:FabienLGandon ;
+  dblp:authoredBy ns19:11141 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage ns3:978-3-031-11609-4_21 ;
+  dblp:doi ns3:978-3-031-11609-4_21 ;
+  dblp:doi ns4:978-3-031-11609-4_21 ;
+  dblp:hasSignature _:b35 ;
+  dblp:hasSignature _:b36 ;
+  dblp:hasSignature _:b37 ;
+  dblp:hasSignature _:b38 ;
+  dblp:hasSignature _:b39 ;
+  dblp:listedOnTocPage ns20:eswc2022s ;
+  dblp:numberOfCreators 5 ;
+  dblp:pagination "112-117" ;
+  dblp:primaryDocumentPage ns3:978-3-031-11609-4_21 ;
+  dblp:publishedAsPartOf ns15:2022s ;
+  dblp:publishedIn "ESWC (Satellite Events)" ;
+  dblp:publishedInBook "ESWC (Satellite Events)" ;
+  dblp:title "KartoGraphI: Drawing a Map of Linked Data." ;
+  dblp:yearOfEvent "2022"^^xsd:gYear ;
+  dblp:yearOfPublication "2022"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/dexa/MaillotFCDP17.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2019-09-25T18:07:34+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/dexa/MaillotFCDP17'" .
+
+<https://dblp.org/rec/conf/webist/MeninMFCFGW21.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2023-03-11T00:11:50+0100" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/webist/MeninMFCFGW21'" .
+
+ns23:abs-2309-16285 ns2:hasIdentifier _:b22 ;
+  ns2:hasIdentifier _:b23 ;
+  a dblp:Publication ;
+  a dblp:Informal ;
+  rdfs:label "Jennie Andersen et al.: A Framework to Assess Knowledge Graphs Accountability. (2023)" ;
+  owl:sameAs <https://doi.org/10.48550/ARXIV.2309.16285> ;
+  owl:sameAs <http://dx.doi.org/10.48550/ARXIV.2309.16285> ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns26:0940 ;
+  dblp:authoredBy ns27:6030 ;
+  dblp:authoredBy ns28:5146 ;
+  dblp:bibtexType ns10:Article ;
+  dblp:documentPage <https://doi.org/10.48550/ARXIV.2309.16285> ;
+  dblp:doi <https://doi.org/10.48550/ARXIV.2309.16285> ;
+  dblp:doi <http://dx.doi.org/10.48550/ARXIV.2309.16285> ;
+  dblp:hasSignature _:b24 ;
+  dblp:hasSignature _:b25 ;
+  dblp:hasSignature _:b26 ;
+  dblp:hasSignature _:b27 ;
+  dblp:listedOnTocPage ns29:corr2309 ;
+  dblp:numberOfCreators 4 ;
+  dblp:primaryDocumentPage <https://doi.org/10.48550/ARXIV.2309.16285> ;
+  dblp:publishedIn "CoRR" ;
+  dblp:publishedInJournal "CoRR" ;
+  dblp:publishedInJournalVolume "abs/2309.16285" ;
+  dblp:title "A Framework to Assess Knowledge Graphs Accountability." ;
+  dblp:yearOfPublication "2023"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/esws/MaillotCFGM22.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2022-07-25T08:39:21+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/esws/MaillotCFGM22'" .
+
+<https://dblp.org/rec/journals/corr/abs-2309-16285.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2023-10-17T13:50:54+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'journals/corr/abs-2309-16285'" .
+
+ns30:MaillotRGL14 ns2:hasIdentifier _:b92 ;
+  ns2:hasIdentifier _:b93 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot et al.: Consistency Evaluation of RDF Data: How Data and Updates are Relevant. (2014)" ;
+  owl:sameAs <https://doi.org/10.1109/SITIS.2014.39> ;
+  owl:sameAs <http://dx.doi.org/10.1109/SITIS.2014.39> ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns33:5185 ;
+  dblp:authoredBy ns34:2122 ;
+  dblp:authoredBy ns35:2678 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage <https://doi.org/10.1109/SITIS.2014.39> ;
+  dblp:documentPage <https://doi.ieeecomputersociety.org/10.1109/SITIS.2014.39> ;
+  dblp:doi <https://doi.org/10.1109/SITIS.2014.39> ;
+  dblp:doi <http://dx.doi.org/10.1109/SITIS.2014.39> ;
+  dblp:hasSignature _:b94 ;
+  dblp:hasSignature _:b95 ;
+  dblp:hasSignature _:b96 ;
+  dblp:hasSignature _:b97 ;
+  dblp:listedOnTocPage ns37:sitis2014 ;
+  dblp:numberOfCreators 4 ;
+  dblp:pagination "187-193" ;
+  dblp:primaryDocumentPage <https://doi.org/10.1109/SITIS.2014.39> ;
+  dblp:publishedAsPartOf ns30:2014 ;
+  dblp:publishedIn "SITIS" ;
+  dblp:publishedInBook "SITIS" ;
+  dblp:title "Consistency Evaluation of RDF Data: How Data and Updates are Relevant." ;
+  dblp:yearOfEvent "2014"^^xsd:gYear ;
+  dblp:yearOfPublication "2014"^^xsd:gYear .
+
+ns12:RaimbaultM13 ns2:hasIdentifier _:b98 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Thomas Raimbault and Pierre Maillot: Vues d'ensembles de documents RDF. (2013)" ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns33:5185 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage <http://inforsid.fr/actes/2013/2013_6_2%20Raimbault.pdf> ;
+  dblp:hasSignature _:b99 ;
+  dblp:hasSignature _:b100 ;
+  dblp:listedOnTocPage ns39:inforsid2013 ;
+  dblp:numberOfCreators 2 ;
+  dblp:pagination "387-402" ;
+  dblp:primaryDocumentPage <http://inforsid.fr/actes/2013/2013_6_2%20Raimbault.pdf> ;
+  dblp:publishedAsPartOf ns12:2013 ;
+  dblp:publishedIn "INFORSID" ;
+  dblp:publishedInBook "INFORSID" ;
+  dblp:title "Vues d'ensembles de documents RDF." ;
+  dblp:yearOfEvent "2013"^^xsd:gYear ;
+  dblp:yearOfPublication "2013"^^xsd:gYear .
+
+ns40:BobedMCF20 ns2:hasIdentifier _:b49 ;
+  ns2:hasIdentifier _:b50 ;
+  ns2:hasIdentifier _:b51 ;
+  a dblp:Publication ;
+  a dblp:Article ;
+  rdfs:label "Carlos Bobed et al.: Data-driven assessment of structural evolution of RDF graphs. (2020)" ;
+  owl:sameAs ns41:SW-200368 ;
+  owl:sameAs ns42:SW-200368 ;
+  owl:sameAs ns43:Q120984591 ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns44:3720 ;
+  dblp:authoredBy ns6:3784 ;
+  dblp:authoredBy ns7:2167 ;
+  dblp:bibtexType ns10:Article ;
+  dblp:documentPage ns41:SW-200368 ;
+  dblp:doi ns41:SW-200368 ;
+  dblp:doi ns42:SW-200368 ;
+  dblp:hasSignature _:b52 ;
+  dblp:hasSignature _:b53 ;
+  dblp:hasSignature _:b54 ;
+  dblp:hasSignature _:b55 ;
+  dblp:listedOnTocPage ns45:semweb11 ;
+  dblp:numberOfCreators 4 ;
+  dblp:pagination "831-853" ;
+  dblp:primaryDocumentPage ns41:SW-200368 ;
+  dblp:publishedIn "Semantic Web" ;
+  dblp:publishedInJournal "Semantic Web" ;
+  dblp:publishedInJournalVolume "11" ;
+  dblp:publishedInJournalVolumeIssue "5" ;
+  dblp:title "Data-driven assessment of structural evolution of RDF graphs." ;
+  dblp:wikidata ns43:Q120984591 ;
+  dblp:yearOfPublication "2020"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/sac/MaillotB18.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2022-10-02T16:14:26+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/sac/MaillotB18'" .
+
+<https://dblp.org/rec/phd/hal/Maillot15.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2020-07-21T00:40:39+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'phd/hal/Maillot15'" .
+
+ns48:MaillotRGL14 ns2:hasIdentifier _:b80 ;
+  ns2:hasIdentifier _:b81 ;
+  a dblp:Publication ;
+  a dblp:Article ;
+  rdfs:label "Pierre Maillot et al.: Aperçus de recherche : interroger efficacement un ensemble de bases RDF. (2014)" ;
+  owl:sameAs <https://doi.org/10.3166/DN.17.2.9-32> ;
+  owl:sameAs <http://dx.doi.org/10.3166/DN.17.2.9-32> ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns33:5185 ;
+  dblp:authoredBy ns34:2122 ;
+  dblp:authoredBy ns35:2678 ;
+  dblp:bibtexType ns10:Article ;
+  dblp:documentPage <https://doi.org/10.3166/DN.17.2.9-32> ;
+  dblp:doi <https://doi.org/10.3166/DN.17.2.9-32> ;
+  dblp:doi <http://dx.doi.org/10.3166/DN.17.2.9-32> ;
+  dblp:hasSignature _:b82 ;
+  dblp:hasSignature _:b83 ;
+  dblp:hasSignature _:b84 ;
+  dblp:hasSignature _:b85 ;
+  dblp:listedOnTocPage ns51:dn17 ;
+  dblp:numberOfCreators 4 ;
+  dblp:pagination "9-32" ;
+  dblp:primaryDocumentPage <https://doi.org/10.3166/DN.17.2.9-32> ;
+  dblp:publishedIn "Document Numérique" ;
+  dblp:publishedInJournal "Document Numérique" ;
+  dblp:publishedInJournalVolume "17" ;
+  dblp:publishedInJournalVolumeIssue "2" ;
+  dblp:title "Aperçus de recherche : interroger efficacement un ensemble de bases RDF." ;
+  dblp:yearOfPublication "2014"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/webi/AndersenCLM23.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2024-02-05T20:32:49+0100" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/webi/AndersenCLM23'" .
+
+<https://dblp.org/rec/conf/sitis/MaillotRGL14.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2023-03-23T23:59:41+0100" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/sitis/MaillotRGL14'" .
+
+<https://dblp.org/rec/conf/f-egc/MaillotRG15.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2015-05-11T14:58:48+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/f-egc/MaillotRG15'" .
+
+ns54:MaillotCFGM23 ns2:hasIdentifier _:b1 ;
+  ns2:hasIdentifier _:b2 ;
+  ns2:hasIdentifier _:b3 ;
+  a dblp:Publication ;
+  a dblp:Article ;
+  rdfs:label "Pierre Maillot et al.: IndeGx: A model and a framework for indexing RDF knowledge graphs with SPARQL-based test suits. (2023)" ;
+  owl:sameAs <https://doi.org/10.1016/J.WEBSEM.2023.100775> ;
+  owl:sameAs <http://dx.doi.org/10.1016/J.WEBSEM.2023.100775> ;
+  owl:sameAs ns43:Q123012433 ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns16:OlivierCorby ;
+  dblp:authoredBy ns17:CatherineFaronZucker ;
+  dblp:authoredBy ns18:FabienLGandon ;
+  dblp:authoredBy ns19:11141 ;
+  dblp:bibtexType ns10:Article ;
+  dblp:documentPage <https://doi.org/10.1016/J.WEBSEM.2023.100775> ;
+  dblp:doi <https://doi.org/10.1016/J.WEBSEM.2023.100775> ;
+  dblp:doi <http://dx.doi.org/10.1016/J.WEBSEM.2023.100775> ;
+  dblp:hasSignature _:b4 ;
+  dblp:hasSignature _:b5 ;
+  dblp:hasSignature _:b6 ;
+  dblp:hasSignature _:b7 ;
+  dblp:hasSignature _:b8 ;
+  dblp:listedOnTocPage ns57:ws76 ;
+  dblp:monthOfPublication "--04"^^xsd:gMonth ;
+  dblp:numberOfCreators 5 ;
+  dblp:pagination "100775" ;
+  dblp:primaryDocumentPage <https://doi.org/10.1016/J.WEBSEM.2023.100775> ;
+  dblp:publishedIn "J. Web Semant." ;
+  dblp:publishedInJournal "J. Web Semant." ;
+  dblp:publishedInJournalVolume "76" ;
+  dblp:title "IndeGx: A model and a framework for indexing RDF knowledge graphs with SPARQL-based test suits." ;
+  dblp:wikidata ns43:Q123012433 ;
+  dblp:yearOfPublication "2023"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/www/MaillotCFGM23.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2023-05-17T21:55:46+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/www/MaillotCFGM23'" .
+
+ns53:MaillotRG15 ns2:hasIdentifier _:b76 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot et al.: Cohérence des données de bases RDF en évolution constante. (2015)" ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns33:5185 ;
+  dblp:authoredBy ns34:2122 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage <http://editions-rnti.fr/?inprocid=1002085> ;
+  dblp:hasSignature _:b77 ;
+  dblp:hasSignature _:b78 ;
+  dblp:hasSignature _:b79 ;
+  dblp:listedOnTocPage ns60:egc2015 ;
+  dblp:numberOfCreators 3 ;
+  dblp:pagination "251-256" ;
+  dblp:primaryDocumentPage <http://editions-rnti.fr/?inprocid=1002085> ;
+  dblp:publishedAsPartOf ns53:2015 ;
+  dblp:publishedIn "EGC" ;
+  dblp:publishedInBook "EGC" ;
+  dblp:title "Cohérence des données de bases RDF en évolution constante." ;
+  dblp:yearOfEvent "2015"^^xsd:gYear ;
+  dblp:yearOfPublication "2015"^^xsd:gYear .
+
+ns52:AndersenCLM23 ns2:hasIdentifier _:b9 ;
+  ns2:hasIdentifier _:b10 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Jennie Andersen et al.: A Framework to Assess Knowledge Graphs Accountability. (2023)" ;
+  owl:sameAs <https://doi.org/10.1109/WI-IAT59888.2023.00034> ;
+  owl:sameAs <http://dx.doi.org/10.1109/WI-IAT59888.2023.00034> ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns26:0940 ;
+  dblp:authoredBy ns27:6030 ;
+  dblp:authoredBy ns28:5146 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage <https://doi.org/10.1109/WI-IAT59888.2023.00034> ;
+  dblp:doi <https://doi.org/10.1109/WI-IAT59888.2023.00034> ;
+  dblp:doi <http://dx.doi.org/10.1109/WI-IAT59888.2023.00034> ;
+  dblp:hasSignature _:b11 ;
+  dblp:hasSignature _:b12 ;
+  dblp:hasSignature _:b13 ;
+  dblp:hasSignature _:b14 ;
+  dblp:listedOnTocPage ns61:webi2023 ;
+  dblp:numberOfCreators 4 ;
+  dblp:pagination "213-220" ;
+  dblp:primaryDocumentPage <https://doi.org/10.1109/WI-IAT59888.2023.00034> ;
+  dblp:publishedAsPartOf ns52:2023 ;
+  dblp:publishedIn "WI/IAT" ;
+  dblp:publishedInBook "WI/IAT" ;
+  dblp:title "A Framework to Assess Knowledge Graphs Accountability." ;
+  dblp:yearOfEvent "2023"^^xsd:gYear ;
+  dblp:yearOfPublication "2023"^^xsd:gYear .
+
+<https://dblp.org/rec/journals/dn/MaillotRGL14.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2022-10-02T15:33:46+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'journals/dn/MaillotRGL14'" .
+
+ns62:MaillotRGL14 ns2:hasIdentifier _:b86 ;
+  ns2:hasIdentifier _:b87 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot et al.: Targeted Linked-Data Extractor. (2014)" ;
+  owl:sameAs ns63:0004758503360341 ;
+  owl:sameAs ns64:0004758503360341 ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns33:5185 ;
+  dblp:authoredBy ns34:2122 ;
+  dblp:authoredBy ns35:2678 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage ns63:0004758503360341 ;
+  dblp:doi ns63:0004758503360341 ;
+  dblp:doi ns64:0004758503360341 ;
+  dblp:hasSignature _:b88 ;
+  dblp:hasSignature _:b89 ;
+  dblp:hasSignature _:b90 ;
+  dblp:hasSignature _:b91 ;
+  dblp:listedOnTocPage ns65:icaart2014-1 ;
+  dblp:numberOfCreators 4 ;
+  dblp:pagination "336-341" ;
+  dblp:primaryDocumentPage ns63:0004758503360341 ;
+  dblp:publishedAsPartOf ns62:2014-1 ;
+  dblp:publishedIn "ICAART (1)" ;
+  dblp:publishedInBook "ICAART (1)" ;
+  dblp:title "Targeted Linked-Data Extractor." ;
+  dblp:yearOfEvent "2014"^^xsd:gYear ;
+  dblp:yearOfPublication "2014"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/icaart/MaillotRGL14.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2022-10-02T16:03:04+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/icaart/MaillotRGL14'" .
+
+ns47:Maillot15 ns2:hasIdentifier _:b74 ;
+  a dblp:Publication ;
+  a dblp:Book ;
+  rdfs:label "Pierre Maillot: Nouvelles méthodes pour l'évaluation, l'évolution et l'interrogation des bases du Web des données. (New methods to evaluate, check and query the Web of data). (2015)" ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:bibtexType ns10:Phdthesis ;
+  dblp:documentPage ns66:tel-01410419 ;
+  dblp:hasSignature _:b75 ;
+  dblp:numberOfCreators 1 ;
+  dblp:primaryDocumentPage ns66:tel-01410419 ;
+  dblp:thesisAcceptedBySchool "University of Angers, France" ;
+  dblp:title "Nouvelles méthodes pour l'évaluation, l'évolution et l'interrogation des bases du Web des données. (New methods to evaluate, check and query the Web of data)." ;
+  dblp:yearOfPublication "2015"^^xsd:gYear .
+
+ns21:MaillotFCDP17 ns2:hasIdentifier _:b60 ;
+  ns2:hasIdentifier _:b61 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot et al.: Nested Forms with Dynamic Suggestions for Quality RDF Authoring. (2017)" ;
+  owl:sameAs ns3:978-3-319-64468-4_3 ;
+  owl:sameAs ns4:978-3-319-64468-4_3 ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns6:3784 ;
+  dblp:authoredBy ns7:2167 ;
+  dblp:authoredBy ns8:MDucasse ;
+  dblp:authoredBy ns9:0935 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage ns3:978-3-319-64468-4_3 ;
+  dblp:doi ns3:978-3-319-64468-4_3 ;
+  dblp:doi ns4:978-3-319-64468-4_3 ;
+  dblp:hasSignature _:b62 ;
+  dblp:hasSignature _:b63 ;
+  dblp:hasSignature _:b64 ;
+  dblp:hasSignature _:b65 ;
+  dblp:hasSignature _:b66 ;
+  dblp:listedOnTocPage ns67:dexa2017-1 ;
+  dblp:numberOfCreators 5 ;
+  dblp:pagination "35-45" ;
+  dblp:primaryDocumentPage ns3:978-3-319-64468-4_3 ;
+  dblp:publishedAsPartOf ns21:2017-1 ;
+  dblp:publishedIn "DEXA (1)" ;
+  dblp:publishedInBook "DEXA (1)" ;
+  dblp:title "Nested Forms with Dynamic Suggestions for Quality RDF Authoring." ;
+  dblp:yearOfEvent "2017"^^xsd:gYear ;
+  dblp:yearOfPublication "2017"^^xsd:gYear .
+
+ns46:MaillotB18 ns2:hasIdentifier _:b56 ;
+  ns2:hasIdentifier _:b57 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot and Carlos Bobed: Measuring structural similarity between RDF graphs. (2018)" ;
+  owl:sameAs <https://doi.org/10.1145/3167132.3167342> ;
+  owl:sameAs <http://dx.doi.org/10.1145/3167132.3167342> ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns44:3720 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage <https://doi.org/10.1145/3167132.3167342> ;
+  dblp:doi <https://doi.org/10.1145/3167132.3167342> ;
+  dblp:doi <http://dx.doi.org/10.1145/3167132.3167342> ;
+  dblp:hasSignature _:b58 ;
+  dblp:hasSignature _:b59 ;
+  dblp:listedOnTocPage ns70:sac2018 ;
+  dblp:numberOfCreators 2 ;
+  dblp:pagination "1960-1967" ;
+  dblp:primaryDocumentPage <https://doi.org/10.1145/3167132.3167342> ;
+  dblp:publishedAsPartOf ns46:2018 ;
+  dblp:publishedIn "SAC" ;
+  dblp:publishedInBook "SAC" ;
+  dblp:title "Measuring structural similarity between RDF graphs." ;
+  dblp:yearOfEvent "2018"^^xsd:gYear ;
+  dblp:yearOfPublication "2018"^^xsd:gYear .
+
+<https://dblp.org/rec/journals/semweb/BobedMCF20.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2023-08-28T21:19:06+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'journals/semweb/BobedMCF20'" .
+
+<https://dblp.org/rec/journals/ws/MaillotCFGM23.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2024-02-05T20:26:38+0100" ;
+  rdfs:label "provenance information for RDF data of dblp record 'journals/ws/MaillotCFGM23'" .
+
+ns22:MeninMFCFGW21 ns2:hasIdentifier _:b40 ;
+  ns2:hasIdentifier _:b41 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Aline Menin et al.: LDViz: A Tool to Assist the Multidimensional Exploration of SPARQL Endpoints. (2021)" ;
+  owl:sameAs ns3:978-3-031-24197-0_9 ;
+  owl:sameAs ns4:978-3-031-24197-0_9 ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns16:OlivierCorby ;
+  dblp:authoredBy ns17:CatherineFaronZucker ;
+  dblp:authoredBy ns18:FabienLGandon ;
+  dblp:authoredBy ns71:2819 ;
+  dblp:authoredBy ns17:CarlaMDSFreitas ;
+  dblp:authoredBy ns72:410 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage ns3:978-3-031-24197-0_9 ;
+  dblp:doi ns3:978-3-031-24197-0_9 ;
+  dblp:doi ns4:978-3-031-24197-0_9 ;
+  dblp:hasSignature _:b42 ;
+  dblp:hasSignature _:b43 ;
+  dblp:hasSignature _:b44 ;
+  dblp:hasSignature _:b45 ;
+  dblp:hasSignature _:b46 ;
+  dblp:hasSignature _:b47 ;
+  dblp:hasSignature _:b48 ;
+  dblp:listedOnTocPage ns73:webist2021sp ;
+  dblp:numberOfCreators 7 ;
+  dblp:pagination "149-173" ;
+  dblp:primaryDocumentPage ns3:978-3-031-24197-0_9 ;
+  dblp:publishedAsPartOf ns22:2021sp ;
+  dblp:publishedIn "WEBIST (Revised Selected Papers)" ;
+  dblp:publishedInBook "WEBIST (Revised Selected Papers)" ;
+  dblp:title "LDViz: A Tool to Assist the Multidimensional Exploration of SPARQL Endpoints." ;
+  dblp:yearOfEvent "2021"^^xsd:gYear ;
+  dblp:yearOfPublication "2023"^^xsd:gYear .
+
+<https://dblp.org/rec/journals/ercim/MaillotFGM23.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2023-06-16T16:35:32+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'journals/ercim/MaillotFGM23'" .
+
+ns58:MaillotCFGM23 ns2:hasIdentifier _:b15 ;
+  ns2:hasIdentifier _:b16 ;
+  a dblp:Publication ;
+  a dblp:Inproceedings ;
+  rdfs:label "Pierre Maillot et al.: Metadatamatic: A Web application to Create a Dataset Description. (2023)" ;
+  owl:sameAs <https://doi.org/10.1145/3543873.3587328> ;
+  owl:sameAs <http://dx.doi.org/10.1145/3543873.3587328> ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns16:OlivierCorby ;
+  dblp:authoredBy ns17:CatherineFaronZucker ;
+  dblp:authoredBy ns18:FabienLGandon ;
+  dblp:authoredBy ns19:11141 ;
+  dblp:bibtexType ns10:Inproceedings ;
+  dblp:documentPage <https://doi.org/10.1145/3543873.3587328> ;
+  dblp:doi <https://doi.org/10.1145/3543873.3587328> ;
+  dblp:doi <http://dx.doi.org/10.1145/3543873.3587328> ;
+  dblp:hasSignature _:b17 ;
+  dblp:hasSignature _:b18 ;
+  dblp:hasSignature _:b19 ;
+  dblp:hasSignature _:b20 ;
+  dblp:hasSignature _:b21 ;
+  dblp:listedOnTocPage ns75:www2023c ;
+  dblp:numberOfCreators 5 ;
+  dblp:pagination "123-126" ;
+  dblp:primaryDocumentPage <https://doi.org/10.1145/3543873.3587328> ;
+  dblp:publishedAsPartOf ns58:2023c ;
+  dblp:publishedIn "WWW (Companion Volume)" ;
+  dblp:publishedInBook "WWW (Companion Volume)" ;
+  dblp:title "Metadatamatic: A Web application to Create a Dataset Description." ;
+  dblp:yearOfEvent "2023"^^xsd:gYear ;
+  dblp:yearOfPublication "2023"^^xsd:gYear .
+
+<https://dblp.org/rec/conf/ekaw/MaillotFCDP16.ttl> dc:creator <https://dblp.org> ;
+  dc:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+  dc:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+  dc:modified "2019-09-25T18:22:29+0200" ;
+  rdfs:label "provenance information for RDF data of dblp record 'conf/ekaw/MaillotFCDP16'" .
+
+ns74:MaillotFGM23 ns2:hasIdentifier _:b28 ;
+  a dblp:Publication ;
+  a dblp:Informal ;
+  rdfs:label "Pierre Maillot et al.: IndeGx: An Index of Linked Open Datasets on the Web. (2023)" ;
+  dblp:authoredBy ns5:6275 ;
+  dblp:authoredBy ns17:CatherineFaronZucker ;
+  dblp:authoredBy ns18:FabienLGandon ;
+  dblp:authoredBy ns19:11141 ;
+  dblp:bibtexType ns10:Article ;
+  dblp:documentPage ns76:indegx-an-index-of-linked-open-datasets-on-the-web ;
+  dblp:hasSignature _:b29 ;
+  dblp:hasSignature _:b30 ;
+  dblp:hasSignature _:b31 ;
+  dblp:hasSignature _:b32 ;
+  dblp:listedOnTocPage ns77:ercim2023 ;
+  dblp:numberOfCreators 4 ;
+  dblp:primaryDocumentPage ns76:indegx-an-index-of-linked-open-datasets-on-the-web ;
+  dblp:publishedIn "ERCIM News" ;
+  dblp:publishedInJournal "ERCIM News" ;
+  dblp:publishedInJournalVolume "2023" ;
+  dblp:publishedInJournalVolumeIssue "133" ;
+  dblp:title "IndeGx: An Index of Linked Open Datasets on the Web." ;
+  dblp:yearOfPublication "2023"^^xsd:gYear .
+
+_:b95 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns33:5185 ;
+  dblp:signatureDblpName "Thomas Raimbault" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns30:MaillotRGL14 .
+
+_:b30 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns17:CatherineFaronZucker ;
+  dblp:signatureDblpName "Catherine Faron" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns74:MaillotFGM23 .
+
+_:b94 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns30:MaillotRGL14 .
+
+_:b93 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1109/SITIS.2014.39" ;
+  a ns2:ResourceIdentifier .
+
+_:b92 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/sitis/MaillotRGL14" ;
+  a ns2:ResourceIdentifier .
+
+_:b91 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns35:2678 ;
+  dblp:signatureDblpName "Stéphane Loiseau" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns62:MaillotRGL14 .
+
+_:b90 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns34:2122 ;
+  dblp:signatureDblpName "David Genest" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns62:MaillotRGL14 .
+
+_:b29 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns74:MaillotFGM23 .
+
+_:b28 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "journals/ercim/MaillotFGM23" ;
+  a ns2:ResourceIdentifier .
+
+_:b27 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns23:abs-2309-16285 .
+
+_:b26 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns28:5146 ;
+  dblp:signatureDblpName "Philippe Lamarre" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns23:abs-2309-16285 .
+
+_:b25 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns27:6030 ;
+  dblp:signatureDblpName "Sylvie Cazalens" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns23:abs-2309-16285 .
+
+_:b89 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns33:5185 ;
+  dblp:signatureDblpName "Thomas Raimbault" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns62:MaillotRGL14 .
+
+_:b24 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns26:0940 ;
+  dblp:signatureDblpName "Jennie Andersen" ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns23:abs-2309-16285 .
+
+_:b88 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns62:MaillotRGL14 .
+
+_:b23 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.48550/ARXIV.2309.16285" ;
+  a ns2:ResourceIdentifier .
+
+_:b87 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.5220/0004758503360341" ;
+  a ns2:ResourceIdentifier .
+
+_:b22 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "journals/corr/abs-2309-16285" ;
+  a ns2:ResourceIdentifier .
+
+_:b86 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/icaart/MaillotRGL14" ;
+  a ns2:ResourceIdentifier .
+
+_:b21 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns19:11141 ;
+  dblp:signatureDblpName "Franck Michel" ;
+  dblp:signatureOrcid ns78:0000-0001-9064-0463 ;
+  dblp:signatureOrdinal 5 ;
+  dblp:signaturePublication ns58:MaillotCFGM23 .
+
+_:b85 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns35:2678 ;
+  dblp:signatureDblpName "Stéphane Loiseau" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns48:MaillotRGL14 .
+
+_:b20 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns18:FabienLGandon ;
+  dblp:signatureDblpName "Fabien Gandon" ;
+  dblp:signatureOrcid ns78:0000-0003-0543-1232 ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns58:MaillotCFGM23 .
+
+_:b84 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns34:2122 ;
+  dblp:signatureDblpName "David Genest" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns48:MaillotRGL14 .
+
+_:b83 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns33:5185 ;
+  dblp:signatureDblpName "Thomas Raimbault" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns48:MaillotRGL14 .
+
+_:b82 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns48:MaillotRGL14 .
+
+_:b81 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.3166/DN.17.2.9-32" ;
+  a ns2:ResourceIdentifier .
+
+_:b80 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "journals/dn/MaillotRGL14" ;
+  a ns2:ResourceIdentifier .
+
+_:b19 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns17:CatherineFaronZucker ;
+  dblp:signatureDblpName "Catherine Faron" ;
+  dblp:signatureOrcid ns78:0000-0001-5959-5561 ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns58:MaillotCFGM23 .
+
+_:b18 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns16:OlivierCorby ;
+  dblp:signatureDblpName "Olivier Corby" ;
+  dblp:signatureOrcid ns78:0000-0001-6610-0969 ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns58:MaillotCFGM23 .
+
+_:b17 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns58:MaillotCFGM23 .
+
+_:b16 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1145/3543873.3587328" ;
+  a ns2:ResourceIdentifier .
+
+_:b15 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/www/MaillotCFGM23" ;
+  a ns2:ResourceIdentifier .
+
+_:b79 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns34:2122 ;
+  dblp:signatureDblpName "David Genest" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns53:MaillotRG15 .
+
+_:b14 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns52:AndersenCLM23 .
+
+_:b78 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns33:5185 ;
+  dblp:signatureDblpName "Thomas Raimbault" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns53:MaillotRG15 .
+
+_:b13 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns28:5146 ;
+  dblp:signatureDblpName "Philippe Lamarre" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns52:AndersenCLM23 .
+
+_:b77 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns53:MaillotRG15 .
+
+_:b12 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns27:6030 ;
+  dblp:signatureDblpName "Sylvie Cazalens" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns52:AndersenCLM23 .
+
+_:b76 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/f-egc/MaillotRG15" ;
+  a ns2:ResourceIdentifier .
+
+_:b11 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns26:0940 ;
+  dblp:signatureDblpName "Jennie Andersen" ;
+  dblp:signatureOrcid ns78:0000-0001-6907-0136 ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns52:AndersenCLM23 .
+
+_:b75 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns47:Maillot15 .
+
+_:b10 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1109/WI-IAT59888.2023.00034" ;
+  a ns2:ResourceIdentifier .
+
+_:b74 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "phd/hal/Maillot15" ;
+  a ns2:ResourceIdentifier .
+
+_:b73 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns9:0935 ;
+  dblp:signatureDblpName "Franck Partouche" ;
+  dblp:signatureOrdinal 5 ;
+  dblp:signaturePublication ns1:MaillotFCDP16 .
+
+_:b72 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns8:MDucasse ;
+  dblp:signatureDblpName "Mireille Ducassé" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns1:MaillotFCDP16 .
+
+_:b71 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns6:3784 ;
+  dblp:signatureDblpName "Peggy Cellier" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns1:MaillotFCDP16 .
+
+_:b70 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns7:2167 ;
+  dblp:signatureDblpName "Sébastien Ferré" ;
+  dblp:signatureOrcid ns78:0000-0002-6302-2333 ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns1:MaillotFCDP16 .
+
+_:b9 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/webi/AndersenCLM23" ;
+  a ns2:ResourceIdentifier .
+
+_:b8 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns19:11141 ;
+  dblp:signatureDblpName "Franck Michel" ;
+  dblp:signatureOrdinal 5 ;
+  dblp:signaturePublication ns54:MaillotCFGM23 .
+
+_:b7 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns18:FabienLGandon ;
+  dblp:signatureDblpName "Fabien Gandon" ;
+  dblp:signatureOrcid ns78:0000-0003-0543-1232 ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns54:MaillotCFGM23 .
+
+_:b69 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns1:MaillotFCDP16 .
+
+_:b6 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns17:CatherineFaronZucker ;
+  dblp:signatureDblpName "Catherine Faron" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns54:MaillotCFGM23 .
+
+_:b68 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1007/978-3-319-58694-6_18" ;
+  a ns2:ResourceIdentifier .
+
+_:b5 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns16:OlivierCorby ;
+  dblp:signatureDblpName "Olivier Corby" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns54:MaillotCFGM23 .
+
+_:b67 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/ekaw/MaillotFCDP16" ;
+  a ns2:ResourceIdentifier .
+
+_:b4 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns54:MaillotCFGM23 .
+
+_:b66 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns9:0935 ;
+  dblp:signatureDblpName "Franck Partouche" ;
+  dblp:signatureOrdinal 5 ;
+  dblp:signaturePublication ns21:MaillotFCDP17 .
+
+_:b3 ns2:usesIdentifierScheme ns2:wikidata ;
+  ns79:hasLiteralValue "Q123012433" ;
+  a ns2:Identifier .
+
+_:b65 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns8:MDucasse ;
+  dblp:signatureDblpName "Mireille Ducassé" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns21:MaillotFCDP17 .
+
+_:b2 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1016/J.WEBSEM.2023.100775" ;
+  a ns2:ResourceIdentifier .
+
+_:b64 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns6:3784 ;
+  dblp:signatureDblpName "Peggy Cellier" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns21:MaillotFCDP17 .
+
+_:b1 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "journals/ws/MaillotCFGM23" ;
+  a ns2:ResourceIdentifier .
+
+_:b63 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns7:2167 ;
+  dblp:signatureDblpName "Sébastien Ferré" ;
+  dblp:signatureOrcid ns78:0000-0002-6302-2333 ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns21:MaillotFCDP17 .
+
+_:b62 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns21:MaillotFCDP17 .
+
+_:b61 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1007/978-3-319-64468-4_3" ;
+  a ns2:ResourceIdentifier .
+
+_:b60 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/dexa/MaillotFCDP17" ;
+  a ns2:ResourceIdentifier .
+
+_:b59 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns44:3720 ;
+  dblp:signatureDblpName "Carlos Bobed" ;
+  dblp:signatureOrcid ns78:0000-0003-4239-8785 ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns46:MaillotB18 .
+
+_:b58 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns46:MaillotB18 .
+
+_:b57 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1145/3167132.3167342" ;
+  a ns2:ResourceIdentifier .
+
+_:b56 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/sac/MaillotB18" ;
+  a ns2:ResourceIdentifier .
+
+_:b55 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns7:2167 ;
+  dblp:signatureDblpName "Sébastien Ferré" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns40:BobedMCF20 .
+
+_:b54 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns6:3784 ;
+  dblp:signatureDblpName "Peggy Cellier" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns40:BobedMCF20 .
+
+_:b53 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns40:BobedMCF20 .
+
+_:b52 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns44:3720 ;
+  dblp:signatureDblpName "Carlos Bobed" ;
+  dblp:signatureOrcid ns78:0000-0003-4239-8785 ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns40:BobedMCF20 .
+
+_:b51 ns2:usesIdentifierScheme ns2:wikidata ;
+  ns79:hasLiteralValue "Q120984591" ;
+  a ns2:Identifier .
+
+_:b50 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.3233/SW-200368" ;
+  a ns2:ResourceIdentifier .
+
+_:b49 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "journals/semweb/BobedMCF20" ;
+  a ns2:ResourceIdentifier .
+
+_:b48 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns72:410 ;
+  dblp:signatureDblpName "Marco Winckler" ;
+  dblp:signatureOrcid ns78:0000-0002-0756-6934 ;
+  dblp:signatureOrdinal 7 ;
+  dblp:signaturePublication ns22:MeninMFCFGW21 .
+
+_:b47 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns18:FabienLGandon ;
+  dblp:signatureDblpName "Fabien Gandon" ;
+  dblp:signatureOrcid ns78:0000-0003-0543-1232 ;
+  dblp:signatureOrdinal 6 ;
+  dblp:signaturePublication ns22:MeninMFCFGW21 .
+
+_:b46 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns17:CarlaMDSFreitas ;
+  dblp:signatureDblpName "Carla Maria Dal Sasso Freitas" ;
+  dblp:signatureOrcid ns78:0000-0003-1986-8435 ;
+  dblp:signatureOrdinal 5 ;
+  dblp:signaturePublication ns22:MeninMFCFGW21 .
+
+_:b45 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns16:OlivierCorby ;
+  dblp:signatureDblpName "Olivier Corby" ;
+  dblp:signatureOrcid ns78:0000-0001-6610-0969 ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns22:MeninMFCFGW21 .
+
+_:b44 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns17:CatherineFaronZucker ;
+  dblp:signatureDblpName "Catherine Faron" ;
+  dblp:signatureOrcid ns78:0000-0001-5959-5561 ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns22:MeninMFCFGW21 .
+
+_:b43 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns22:MeninMFCFGW21 .
+
+_:b42 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns71:2819 ;
+  dblp:signatureDblpName "Aline Menin" ;
+  dblp:signatureOrcid ns78:0000-0002-9345-3994 ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns22:MeninMFCFGW21 .
+
+_:b41 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1007/978-3-031-24197-0_9" ;
+  a ns2:ResourceIdentifier .
+
+_:b40 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/webist/MeninMFCFGW21" ;
+  a ns2:ResourceIdentifier .
+
+_:b100 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns12:RaimbaultM13 .
+
+_:b39 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns19:11141 ;
+  dblp:signatureDblpName "Franck Michel" ;
+  dblp:signatureOrcid ns78:0000-0001-9064-0463 ;
+  dblp:signatureOrdinal 5 ;
+  dblp:signaturePublication ns15:MaillotCFGM22 .
+
+_:b38 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns18:FabienLGandon ;
+  dblp:signatureDblpName "Fabien Gandon" ;
+  dblp:signatureOrcid ns78:0000-0003-0543-1232 ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns15:MaillotCFGM22 .
+
+_:b37 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns17:CatherineFaronZucker ;
+  dblp:signatureDblpName "Catherine Faron" ;
+  dblp:signatureOrcid ns78:0000-0001-5959-5561 ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns15:MaillotCFGM22 .
+
+_:b36 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns16:OlivierCorby ;
+  dblp:signatureDblpName "Olivier Corby" ;
+  dblp:signatureOrcid ns78:0000-0001-6610-0969 ;
+  dblp:signatureOrdinal 2 ;
+  dblp:signaturePublication ns15:MaillotCFGM22 .
+
+_:b35 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns5:6275 ;
+  dblp:signatureDblpName "Pierre Maillot" ;
+  dblp:signatureOrcid ns78:0000-0002-9814-439X ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns15:MaillotCFGM22 .
+
+_:b99 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns33:5185 ;
+  dblp:signatureDblpName "Thomas Raimbault" ;
+  dblp:signatureOrdinal 1 ;
+  dblp:signaturePublication ns12:RaimbaultM13 .
+
+_:b34 ns2:usesIdentifierScheme ns2:doi ;
+  ns79:hasLiteralValue "10.1007/978-3-031-11609-4_21" ;
+  a ns2:ResourceIdentifier .
+
+_:b98 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/inforsid/RaimbaultM13" ;
+  a ns2:ResourceIdentifier .
+
+_:b33 ns2:usesIdentifierScheme ns2:dblp-record ;
+  ns79:hasLiteralValue "conf/esws/MaillotCFGM22" ;
+  a ns2:ResourceIdentifier .
+
+_:b97 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns35:2678 ;
+  dblp:signatureDblpName "Stéphane Loiseau" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns30:MaillotRGL14 .
+
+_:b32 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns19:11141 ;
+  dblp:signatureDblpName "Franck Michel" ;
+  dblp:signatureOrdinal 4 ;
+  dblp:signaturePublication ns74:MaillotFGM23 .
+
+_:b96 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns34:2122 ;
+  dblp:signatureDblpName "David Genest" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns30:MaillotRGL14 .
+
+_:b31 a dblp:AuthorSignature ;
+  dblp:signatureCreator ns18:FabienLGandon ;
+  dblp:signatureDblpName "Fabien Gandon" ;
+  dblp:signatureOrdinal 3 ;
+  dblp:signaturePublication ns74:MaillotFGM23 .
+

@@ -1,0 +1,40 @@
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix bf: <http://id.loc.gov/ontologies/bibframe/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix bibtex: <http://purl.org/net/nknouf/ns/bibtex#> .
+@prefix cito: <http://purl.org/spar/cito/> .
+@prefix datacite: <http://purl.org/spar/datacite/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix litre: <http://purl.org/spar/literal/> .
+@prefix locid: <http://id.loc.gov/vocabulary/identifiers/> .
+@prefix locrel: <http://id.loc.gov/vocabulary/relators/> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdt: <http://www.wikidata.org/prop/direct/> .
+@prefix dblp: <https://dblp.org/rdf/schema#> .
+
+<https://dblp.org/pid/143/6275>
+	rdfs:label "Pierre Maillot" ;
+	datacite:hasIdentifier [
+		datacite:usesIdentifierScheme datacite:dblp ;
+		litre:hasLiteralValue "143/6275" ;
+		a datacite:PersonalIdentifier
+	] ;
+	dblp:primaryCreatorName "Pierre Maillot" ;
+	dblp:creatorName "Pierre Maillot" ;
+	dblp:authorOf <https://dblp.org/rec/journals/ws/MaillotCFGM23>, <https://dblp.org/rec/conf/webi/AndersenCLM23>, <https://dblp.org/rec/conf/www/MaillotCFGM23>, <https://dblp.org/rec/journals/corr/abs-2309-16285>, <https://dblp.org/rec/journals/ercim/MaillotFGM23>, <https://dblp.org/rec/conf/esws/MaillotCFGM22>, <https://dblp.org/rec/conf/webist/MeninMFCFGW21>, <https://dblp.org/rec/journals/semweb/BobedMCF20>, <https://dblp.org/rec/conf/sac/MaillotB18>, <https://dblp.org/rec/conf/dexa/MaillotFCDP17>, <https://dblp.org/rec/conf/ekaw/MaillotFCDP16>, <https://dblp.org/rec/phd/hal/Maillot15>, <https://dblp.org/rec/conf/f-egc/MaillotRG15>, <https://dblp.org/rec/journals/dn/MaillotRGL14>, <https://dblp.org/rec/conf/icaart/MaillotRGL14>, <https://dblp.org/rec/conf/sitis/MaillotRGL14>, <https://dblp.org/rec/conf/inforsid/RaimbaultM13> ;
+	dblp:coCreatorWith <https://dblp.org/pid/303/0940>, <https://dblp.org/pid/77/3720>, <https://dblp.org/pid/53/6030>, <https://dblp.org/pid/19/3784>, <https://dblp.org/pid/c/OlivierCorby>, <https://dblp.org/pid/d/MDucasse>, <https://dblp.org/pid/f/CatherineFaronZucker>, <https://dblp.org/pid/06/2167>, <https://dblp.org/pid/f/CarlaMDSFreitas>, <https://dblp.org/pid/g/FabienLGandon>, <https://dblp.org/pid/60/2122>, <https://dblp.org/pid/59/5146>, <https://dblp.org/pid/42/2678>, <https://dblp.org/pid/177/2819>, <https://dblp.org/pid/20/11141>, <https://dblp.org/pid/200/0935>, <https://dblp.org/pid/69/5185>, <https://dblp.org/pid/43/410> ;
+	a dblp:Creator, dblp:Person .
+<https://dblp.org/pid/143/6275.ttl>
+	rdfs:label "provenance information for RDF data of dblp person '143/6275'" ;
+	dct:creator <https://dblp.org> ;
+	dct:isPartOf <https://dblp.org/rdf/dblp.ttl> ;
+	dct:modified "2024-02-06T23:46:07+0100" ;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
