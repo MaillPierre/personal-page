@@ -16,8 +16,8 @@ let md = new MarkdownIt({
 // md.use(markdownItImageSize);
 
 export class ContentPerson extends ContentClass {
-    constructor(configObject: any) {
-        super("", "person", configObject, "#titleHeader");
+    constructor(configObject: any, appendTargetId: string = "#titleHeader") {
+        super("", "person", configObject, appendTargetId);
     }
 
     content() {
@@ -27,8 +27,8 @@ export class ContentPerson extends ContentClass {
 }
 
 export class ContentSocial extends ContentClass {
-    constructor(configObject: any) {
-        super("", "social", configObject, "#socialInfo");
+    constructor(configObject: any, appendTargetId: string = "#socialInfo") {
+        super("", "social", configObject, appendTargetId);
     }
     content() {
 
@@ -43,7 +43,7 @@ export class ContentSocial extends ContentClass {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/envelope-fill.svg" alt="Email logo" class="icon-image"> Email](mailto:${this.config.email}) `);
         }
         if (this.config.twitter !== undefined && this.config.twitter !== "") {
-            content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/twitter.svg" alt="Twitter logo" class="icon-image"> Twitter](https://twitter.com/${this.config.twitter}) `);
+            content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/twitter-x.svg" alt="X logo" class="icon-image"> X](https://twitter.com/${this.config.twitter}) `);
         }
         if (this.config.github !== undefined && this.config.github !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/github.svg" alt="Github logo" class="icon-image"> GitHub](https://github.com/${this.config.github}) `);
@@ -121,7 +121,7 @@ export class ContentSocial extends ContentClass {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/discord.svg" alt="Discord logo" class="icon-image"> Discord](${this.config.discord}) `);
         }
         if (this.config.bluesky !== undefined && this.config.bluesky !== "") {
-            content = content.concat(`[<img src="img/butterfly.svg" alt="BlueSky logo" class="icon-image"> BlueSky](${this.config.bluesky}) `);
+            content = content.concat(`[<img src="https://raw.githubusercontent.com/MaillPierre/personal-page/6dea702d7df909f2b962e1fa924aefa79bf93c29/img/butterfly.svg" alt="BlueSky logo" class="icon-image"> BlueSky](${this.config.bluesky}) `);
         }
         if (this.config.slack !== undefined && this.config.slack !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/slack.svg" alt="Slack logo" class="icon-image"> Slack](${this.config.slack}) `);
@@ -163,8 +163,8 @@ export class ContentPublications extends ContentClass {
     dblpDataLoadingPromise: Promise<void>;
     dblpAuthorURI: string;
 
-    constructor(configObject: any) {
-        super("Publications", "dblp", configObject);
+    constructor(configObject: any, appendTargetId: string = "#publications") {
+        super("Publications", "dblp", configObject, appendTargetId);
         this.idDBLP = configObject.publications.dblp;
         this.dblpData = RDFUtil.createStore();
         this.dblpDataLoadingPromise = Query.fetchGETPromise(`https://dblp.org/pid/${this.idDBLP}.ttl`).then((dataString) => {
@@ -339,8 +339,8 @@ export class ContentPublications extends ContentClass {
 export class ContentProjects extends ContentClass {
     contentPromise: Promise<string>;
 
-    constructor(configObject: any) {
-        super("Projects", "projects", configObject);
+    constructor(configObject: any, appendTargetId: string = "#projects") {
+        super("Projects", "projects", configObject, appendTargetId);
         // https://api.github.com/users/MaillPierre/repos
         this.contentPromise = Promise.resolve("");
     }
@@ -353,8 +353,8 @@ export class ContentProjects extends ContentClass {
 export class ContentMarkdown extends ContentClass {
     contentPromise: Promise<string>;
 
-    constructor(configObject: any, markdownFile: string) {
-        super("", "", configObject);
+    constructor(configObject: any, markdownFile: string, appendTargetId) {
+        super("", "", configObject, appendTargetId);
         this.contentPromise = Query.fetchGETPromise(markdownFile).then((data) => {
             return md.render(data);
         });
