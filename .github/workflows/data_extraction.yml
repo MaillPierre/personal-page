@@ -16,7 +16,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
-        ref: catalog_auto_refresh
+        ref: main
     - name: Script launch
       working-directory: ./scripts
       run: ./retrieveData.sh
