@@ -167,7 +167,7 @@ export class ContentPublications extends ContentClass {
         super("Publications", "dblp", configObject, appendTargetId);
         this.idDBLP = configObject.publications.dblp;
         this.dblpData = RDFUtil.createStore();
-        this.dblpDataLoadingPromise = Query.fetchGETPromise(`https://raw.githubusercontent.com/MaillPierre/personal-page/main/data/dblp_person.ttl`).then((dataString) => {
+        this.dblpDataLoadingPromise = Query.fetchGETPromise(`https://raw.githubusercontent.com/MaillPierre/personal-page/deploy/data/dblp_person.ttl`).then((dataString) => {
             RDFUtil.parseTurtleToStore(dataString, this.dblpData, `https://dblp.org/pid/${this.idDBLP}.ttl`);
         }).catch((error) => {
             Logger.log("error", "Error loading HAL data: " + error);
@@ -183,7 +183,7 @@ export class ContentPublications extends ContentClass {
         }
         return this.dblpDataLoadingPromise.then(() => {
 
-            return Query.fetchGETPromise(`https://raw.githubusercontent.com/MaillPierre/personal-page/main/data/dblp_articles.ttl`).then(articleDataString => {
+            return Query.fetchGETPromise(`https://raw.githubusercontent.com/MaillPierre/personal-page/deploy/data/dblp_articles.ttl`).then(articleDataString => {
                 return RDFUtil.parseTurtleToStore(articleDataString, this.dblpData, `https://dblp.org/pid/${this.idDBLP}.ttl`)
             })
         }).then(() => {
