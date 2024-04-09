@@ -105,8 +105,6 @@ dist
 
 .parcel-cache/
 
-config/
-
 package-lock.json
 
 *.jar
