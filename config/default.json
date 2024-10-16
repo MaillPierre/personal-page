@@ -1,0 +1,51 @@
+{
+    "person" : {
+        "name": "Pierre MAILLOT"
+    },
+    "social" : {
+        "website": "",
+        "blog": "",
+        "orcid": "0000-0002-9814-439X",
+        "hal": "pierre-maillot",
+        "affiliation": "INRIA, I3S, Sophia Antipolis, France",
+        "email": "pierre.maillot@inria.fr",
+        "github": "MaillPierre",
+        "mastodon": "https://social.linux.pizza/@LePierreMaillot",
+        "twitter": "https://twitter.com/LePierreMaillot",
+        "bluesky": "https://bsky.app/profile/lepierremaillot.bsky.social",
+        "instagram": "",
+        "facebook": "",
+        "linkedin": "pierre-maillot-266b1a63",
+        "dblp": "143/6275",
+        "youtube": "",
+        "twitch": "",
+        "patreon": "",
+        "paypal": "",
+        "bitcoin": "",
+        "ethereum": "",
+        "monero": "",
+        "flattr": "",
+        "buymeacoffee": "",
+        "liberapay": "",
+        "open_collective": "",
+        "keybase": "",
+        "reddit": "",
+        "hackernews": "",
+        "lobsters": "",
+        "telegram": "",
+        "whatsapp": "",
+        "signal": "",
+        "discord": "",
+        "slack": "",
+        "matrix": "",
+        "xmpp": "",
+        "gscholar": "Svt8d0IAAAAJ"
+    },
+    "publications": {
+        "dblp": "143/6275",
+        "openalex": "A5045550951"
+    },
+    "projects": {
+        "github": "MaillPierre"
+    }
+}
