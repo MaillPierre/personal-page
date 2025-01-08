@@ -110,3 +110,5 @@ package-lock.json
 *.jar
 
 script/jq-linux64
+
+.idea/
