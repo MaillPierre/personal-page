@@ -17,6 +17,12 @@
 
 - Design Patterns
 - Clean Code
+- Semantic Web
+    - RDF, RDFS, OWL
+    - SPARQL
+    - SHACL
+- Data Mining
+    - Pattern mining
 
 ## Languages
 
