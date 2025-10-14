@@ -1,10 +1,11 @@
 ## Skills
 
 ### Programming Languages
+- Java
 - Javascript
     - Typescript
     - Node
-- Java
+- Python
 - C++
 - Bash
 
@@ -15,14 +16,16 @@
 
 ### Others
 
-- Design Patterns
-- Clean Code
 - Semantic Web
     - RDF, RDFS, OWL
     - SPARQL
     - SHACL
 - Data Mining
     - Pattern mining
+- Ontologies
+- FAIR, Open Data
+- Design Patterns
+- Clean Code, SOLID principles
 
 ## Languages
 
