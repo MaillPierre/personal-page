@@ -6,7 +6,7 @@ Development of [Corese](https://github.com/corese-stack) to industrial standards
 
 - 2021 – 2024 : Post-doc, ANR [DeKaLoG](https://dekalog.univ-nantes.fr/) project, INRIA Sophia Antipolis (42 months)
 
-Modelling and development of a metadata index for online RDF databases, [IndeGx](https://github.com/Wimmics/IndeGx).
+Modelling and development of a metadata index for online RDF databases, [IndeGx](https://github.com/Wimmics/IndeGx). Creation of an open tool for easy dataset description, [Metadatamatic](https://wimmics.github.io/voidmatic/).
 
 - 2017 – 2019 : Maturation Engineer, SEMELEV project, SATT [Ouest Valorisation](https://www.ouest-valorisation.fr/) (18 months)
 
