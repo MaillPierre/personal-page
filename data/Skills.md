@@ -2,9 +2,7 @@
 
 ### Programming Languages
 - Java
-- Javascript
-    - Typescript
-    - Node
+- Javascript, Typescript, Node
 - Python
 - C++
 - Bash
@@ -16,12 +14,8 @@
 
 ### Others
 
-- Semantic Web
-    - RDF, RDFS, OWL
-    - SPARQL
-    - SHACL
-- Data Mining
-    - Pattern mining
+- Semantic Web: RDF, RDFS, OWL, SPARQL, SHACL
+- Data Mining, Pattern mining
 - Ontologies
 - FAIR, Open Data
 - Design Patterns
