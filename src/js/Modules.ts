@@ -61,7 +61,7 @@ export class ContentSocial extends ContentClass {
             content = content.concat(`[<img src="https://dblp.org/img/dblp.icon.192x192.png" alt="DBLP logo" class="icon-image"> DBLP](https://dblp.org/pid/${this.config.dblp}) `);
         }
         if (this.config.hal !== undefined && this.config.hal !== "") {
-            content = content.concat(`[<img src="https://cv.hal.science/assets/img/idhal.svg" alt="HAL Id logo" class="icon-image"> HAL](https://cv.hal.science/${this.config.hal}) `);
+            content = content.concat(`[<img src="https://raw.githubusercontent.com/MaillPierre/personal-page/refs/heads/main/img/hal-logo-header.png" alt="HAL Id logo" class="icon-image"> HAL](https://cv.hal.science/${this.config.hal}) `);
         }
         if (this.config.gscholar !== undefined && this.config.gscholar !== "") {
             content = content.concat(`[<img src="https://icons.getbootstrap.com/assets/icons/google.svg" alt="Google Scholar logo" class="icon-image"> Google Scholar](https://scholar.google.com/citations?user=${this.config.gscholar}) `);
