@@ -3,6 +3,8 @@
 ### Soft skills
 
 - Autonomy
+- Adaptability
+- Creativity
 - Communication
 - Teamwork
 - Organisation
