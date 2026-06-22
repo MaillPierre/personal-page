@@ -1,25 +1,40 @@
 ## Skills
 
-### Programming Languages
+### Soft skills
+
+- Autonomy
+- Communication
+- Teamwork
+- Organisation
+- Communication to non-specialists
+- Problem solving
+- Technology watch
+- Writing technical documentation
+- Writing scientific publications
+
+### Programming 
+
+- Design Patterns
+- Clean Code, SOLID principles
+- Test Driven Development
+
+#### Languages
 - Java
 - Javascript, Typescript, Node
 - Python
 - C++
 - Bash
 
-### Tools
+#### Tools
 
 - Git
 - Docker
 
-### Others
+#### Others
 
-- Semantic Web: RDF, RDFS, OWL, SPARQL, SHACL
+- Knowledge Graphs, Semantic Web, Ontologies: RDF, RDFS, OWL, SPARQL, SHACL
 - Data Mining, Pattern mining
-- Ontologies
 - FAIR, Open Data
-- Design Patterns
-- Clean Code, SOLID principles
 
 ## Languages
 
