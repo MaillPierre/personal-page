@@ -3,11 +3,11 @@
         "name": "Pierre MAILLOT"
     },
     "social" : {
-        "website": "",
+        "website": "https://w3id.org/people/pierremaillot",
         "blog": "",
         "orcid": "0000-0002-9814-439X",
         "hal": "pierre-maillot",
-        "affiliation": "INRIA, I3S, Sophia Antipolis, France",
+        "affiliation": "Open to relocate",
         "email": "pierre.maillot@inria.fr",
         "github": "MaillPierre",
         "mastodon": "https://mastodon.social/@LePierreMaillot",
