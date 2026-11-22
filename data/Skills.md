@@ -13,34 +13,51 @@
 - Technology watch
 - Writing technical documentation
 - Writing scientific publications
+- Research and development
+- Research design
 
 ### Programming 
 
 - Design Patterns
-- Clean Code, SOLID principles
+- Clean Code 
+- SOLID principles
 - Test Driven Development
 
 #### Languages
+
 - Java
 - Javascript, Typescript, Node
 - Python
 - C++
 - Bash
+- Cypher
 
 #### Tools
 
 - Git
 - Docker
+- Neo4J
 
 #### Others
 
-- Knowledge Graphs, Semantic Web, Ontologies: RDF, RDFS, OWL, SPARQL, SHACL
-- Data Mining, Pattern mining
-- FAIR, Open Data
+- Knowledge Graphs
+    - Semantic Web
+        - RDF 
+        - RDFS 
+        - OWL 
+        - SKOS
+        - SPARQL 
+        - SHACL
+    - Ontologies 
+- Data Mining 
+- Pattern mining
+- FAIR 
+- Open Data
+- Open Source
 
 ## Languages
 
 - French: native
-- English: fluent
+- English: fluent C2
 
 ---
